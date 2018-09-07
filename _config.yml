@@ -12,19 +12,19 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "MorningSpace"
+title                    : "晴耕书斋"
 title_separator          : "-"
-name                     : "William"
+name                     : "MorningSpace"
 description              : "My new way to the world."
 url                      : "https://morningspace.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "morningspace/morningspace.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -80,8 +80,9 @@ naver_site_verification  :
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  name                   : MorningSpace # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/morningspace/"
 
 # Analytics
 analytics:
@@ -93,8 +94,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "William"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "MornigSpace"
+  avatar           : "/assets/images/bio-photo.png"
   bio              : "混迹IT圈，蹉跎十余载，如今依旧摸爬滚打于程序员一线的一名普通老兵。虽自觉资质愚钝，却向往程序人生。闲暇之余，偶有技术写译。拙笔译作见诸于市者，如：Manning的《相关性搜索》，O’Rielly的《集体智慧编程》与《EJB 3.0》等。"
   location         : "Beijing, China"
   email            : "morningspace@126.com"
@@ -183,7 +184,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
