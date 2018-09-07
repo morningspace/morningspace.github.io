@@ -1,4 +1,5 @@
 title: MorningSpace
 description: My new way to the world.
-theme: jekyll-theme-midnight
+remote_theme: "mmistakes/minimal-mistakes"
 show_excerpts: true
+author: William
