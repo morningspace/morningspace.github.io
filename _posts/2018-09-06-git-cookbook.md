@@ -9,42 +9,42 @@ tags: [git]
 ## 安装配置
 
 安装完成后的配置：
-
-    $ git config --global user.name "Your Name"
-    $ git config --global user.email "email@example.com"
-
+```shell
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+```
 加上--global针对当前用户起作用，如不加，只针对当前仓库起作用。当前用户的Git配置文件放在用户主目录下的.gitconfig中，每个仓库的Git配置文件放在.git/config中。
 
 创建本地版本库：
-
-    $ git init
-
+```shell
+$ git init
+```
 ### 其他配置
 
 让Git显示颜色：
-
-    $ git config --global color.ui true
-
+```shell
+$ git config --global color.ui true
+```
 忽略某些文件时，需要编写.gitignore，并放到版本库里，参考[这里](https://github.com/github/gitignore)。
 
 定义命令别名：
-
-    $ git config --global alias.st status
-    $ git config --global alias.co checkout
-    $ git config --global alias.ci commit
-    $ git config --global alias.br branch
-    $ git config --global alias.unstage 'reset HEAD'
-    $ git config --global alias.last 'log -1'
-    $ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-
+```shell
+$ git config --global alias.st status
+$ git config --global alias.co checkout
+$ git config --global alias.ci commit
+$ git config --global alias.br branch
+$ git config --global alias.unstage 'reset HEAD'
+$ git config --global alias.last 'log -1'
+$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+```
 
 ## Github配置
 
 ### SSH Key配置
 在用户主目录下执行如下命令以生成SSH Key：
-
-    $ ssh-keygen -t rsa -C "youremail@example.com"
-
+```shell
+$ ssh-keygen -t rsa -C "youremail@example.com"
+```
 登录GitHub添加SSH Key，粘贴id_rsa.pub文件的内容。
 
 ### 库配置
@@ -52,225 +52,225 @@ tags: [git]
 登录GitHub创建新的库。
 
 将本地库与远程库关联：
-
-    $ git remote add origin git@server-name:path/repo-name.git
-
+```shell
+$ git remote add origin git@server-name:path/repo-name.git
+```
 ### 推送及获取
 
 把本地库的所有内容推送到远程库：
-
-    $ git push -u origin master
-
+```shell
+$ git push -u origin master
+```
 下次，只要每次本地做了提交，可以执行如下命令：
-
-    $ git push origin master
-
+```shell
+$ git push origin master
+```
 克隆仓库：
-
-    $ git clone git@server-name:path/repo-name.git
-
+```shell
+$ git clone git@server-name:path/repo-name.git
+```
 ## 常用命令
 
 ### 基本命令
 
 添加一个或多个文件：
-
-    $ git add <file>
-
+```shell
+$ git add <file>
+```
 提交更改：
-
-    $ git commit -m "<message>"
-
+```shell
+$ git commit -m "<message>"
+```
 查看工作区状态：
-
-    $ git status
-
+```shell
+$ git status
+```
 查看修改内容：
-
-    $ git diff <file>
-
+```shell
+$ git diff <file>
+```
 查看提交历史：
-
-    $ git log [--pretty=oneline]
-
+```shell
+$ git log [--pretty=oneline]
+```
 查看命令历史：
-
-    $ git reflog
-
+```shell
+$ git reflog
+```
 删除文件：
-
-    $ git rm <file>
-
+```shell
+$ git rm <file>
+```
 ### 恢复版本
 
 恢复到指定版本：
-
-    $ git reset --hard <commit_id>
-    $ git reset --hard HEAD^|HEAD^^|...|HEAD~100
-
+```shell
+$ git reset --hard <commit_id>
+$ git reset --hard HEAD^|HEAD^^|...|HEAD~100
+```
 丢弃工作区修改：
-
-    $ git checkout -- <file>
-
+```shell
+$ git checkout -- <file>
+```
 丢弃暂存区修改：
-
-    $ git reset HEAD <file>
-
+```shell
+$ git reset HEAD <file>
+```
 ### 管理库
 
 关联远程库：
-
-    $ git remote add origin git@server-name:path/repo-name.git
-
+```shell
+$ git remote add origin git@server-name:path/repo-name.git
+```
 第一次推送master分支的所有内容：
-
-    $ git push -u origin master
-
+```shell
+$ git push -u origin master
+```
 首次推送后的推送：
-
-    $ git push origin master
-
+```shell
+$ git push origin master
+```
 克隆仓库：
-
-    $ git clone git@server-name:path/repo-name.git
-
+```shell
+$ git clone git@server-name:path/repo-name.git
+```
 查看远程库：
-
-    $ git remote [-v]
-
+```shell
+$ git remote [-v]
+```
 抓取分支：
-
-    $ git pull
-
+```shell
+$ git pull
+```
 ## 分支
 
 ### 基本命令
 
 创建分支：
-
-    $ git checkout -b <branch>
-
+```shell
+$ git checkout -b <branch>
+```
 创建远程分支到本地：
-
-    $ git checkout -b <branch> origin/<branch>
-
+```shell
+$ git checkout -b <branch> origin/<branch>
+```
 查看当前分支：
-
-    $ git branch
-
+```shell
+$ git branch
+```
 切换回master分支：
-
-    $ git checkout master
-
+```shell
+$ git checkout master
+```
 合并别的分支到当前分支：
-
-    $ git merge <branch>
-
+```shell
+$ git merge <branch>
+```
 删除分支：
-
-    $ git branch -d <branch>
-
+```shell
+$ git branch -d <branch>
+```
 强行删除分支：
-
-    $ git branch -D <branch>
-
+```shell
+$ git branch -D <branch>
+```
 查看分支合并情况：
-
-    $ git log --graph --pretty=oneline --abbrev-commit
-
+```shell
+$ git log --graph --pretty=oneline --abbrev-commit
+```
 合并分支时禁用fastforward模式：
-
-    $ git merge --no-ff -m "<comment>" <branch>
-
+```shell
+$ git merge --no-ff -m "<comment>" <branch>
+```
 指定本地分支与远程分支的链接：
-
-    $ git branch --set-upstream <branch> origin/<branch>
-
+```shell
+$ git branch --set-upstream <branch> origin/<branch>
+```
 ### 暂存工作区
 
 保存当前工作现场：
-
-    $ git stash
-
+```shell
+$ git stash
+```
 列出保存的工作现场：
-
-    $ git stash list
-
+```shell
+$ git stash list
+```
 恢复工作现场：
-
-    $ git stash apply stash@{n}
-    $ git stash drop stash@{n}
-
+```shell
+$ git stash apply stash@{n}
+$ git stash drop stash@{n}
+```
 或，
-
-    $ git stash pop
-
+```shell
+$ git stash pop
+```
 ## 标签
 
 建立标签：
-
-    $ git tag <tag> [<commit id>]
-
+```shell
+$ git tag <tag> [<commit id>]
+```
 建立带说明的标签：
-
-    $ git tag -a <tag> -m <comment> [<commit id>]
-
+```shell
+$ git tag -a <tag> -m <comment> [<commit id>]
+```
 查看所有标签：
-
-    $ git tag
-
+```shell
+$ git tag
+```
 查看标签信息：
-
-    $ git show <tag>
-
+```shell
+$ git show <tag>
+```
 删除标签：
-
-    $ git tag -d <tag>
-
+```shell
+$ git tag -d <tag>
+```
 推送标签到远程
-
-    $ git push origin <tag>
-
+```shell
+$ git push origin <tag>
+```
 推送所有尚未被推送的本地标签
-
-    $ git push origin --tags
-
+```shell
+$ git push origin --tags
+```
 删除远程标签（先删除本地标签）：
-
-    $ git push origin :refs/tags/<tag>
-
+```shell
+$ git push origin :refs/tags/<tag>
+```
 ## 搭建Git服务器
 
 安装Git：
-
-    $ sudo apt-get install git
-
+```shell
+$ sudo apt-get install git
+```
 创建一个git用户：
-
-    $ sudo adduser git
-
+```shell
+$ sudo adduser git
+```
 把所有用户id_rsa.pub中的公钥导入到/home/git/.ssh/authorized_keys文件里，一行一个
 
 选定一个目录<path>，在该目录下初始化Git仓库：
-
-    $ sudo git init --bare <repo>.git
-
+```shell
+$ sudo git init --bare <repo>.git
+```
 把owner改成git：
-
-    $ sudo chown -R git:git <repo>.git
-
+```shell
+$ sudo chown -R git:git <repo>.git
+```
 禁用shell登录，编辑/etc/passwd，将：
-
+```shell
     git:x:1001:1001:,,,:/home/git:/bin/bash
-
+```
 改成：
-
+```shell
     git:x:1001:1001:,,,:/home/git:/usr/bin/git-shell
-
+```
 克隆远程仓库：
-
-    $ git clone git@<server>:/<path>/<repo>.git
-
+```shell
+$ git clone git@<server>:/<path>/<repo>.git
+```
 ## 其他资源
 
 * [Git Cheat Sheet](https://www.git-tower.com/blog/git-cheat-sheet)
