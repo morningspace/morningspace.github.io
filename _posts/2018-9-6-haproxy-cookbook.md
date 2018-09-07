@@ -1,3 +1,8 @@
+---
+title: HAProxy使用
+categories: [blog, tech]
+tags: [ha]
+---
 HAProxy is an open source application used as TCP/HTTP Load Balancer and for proxy solutions. It can distribute the workload across multiple Elasticsearch nodes thus improving the overall performance and reliability.
 
 In this guide, we will discuss the process of setting up a high availability load balancer using HAProxy to control the traffic of SSL enabled Elasticsearch by separating HTTPS requests across multiple Elasticsearch nodes.
