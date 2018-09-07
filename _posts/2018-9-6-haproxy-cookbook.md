@@ -5,10 +5,10 @@ In this guide, we will discuss the process of setting up a high availability loa
 ## Install HAProxy
 
 To install HAProxy, run the following commands on RedHat based systems:
-
-    # yum update
-    # yum install haproxy
-
+```shell
+# yum update
+# yum install haproxy
+```
 Or on Debian based systems:
 
     # apt-get update
