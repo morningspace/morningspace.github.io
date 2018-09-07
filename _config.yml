@@ -12,17 +12,17 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 title                    : "MorningSpace"
 title_separator          : "-"
 name                     : "William"
 description              : "My new way to the world."
-url                      : # the base hostname & protocol for your site e.g. "https://morningspace.github.io"
+url                      : "https://morningspace.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "morningspace/morningspace.github.io"
+repository               : "morningspace/morningspace.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -76,13 +76,6 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -102,34 +95,25 @@ analytics:
 author:
   name             : "William"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "混迹IT圈，蹉跎十余载，如今依旧摸爬滚打于程序员一线的一名普通老兵。虽自觉资质愚钝，却向往程序人生。闲暇之余，偶有技术写译。拙笔译作见诸于市者，如：Manning的《相关性搜索》，O’Rielly的《集体智慧编程》与《EJB 3.0》等。"
+  location         : "Beijing, China"
+  email            : "morningspace@126.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
-  facebook         :
   foursquare       :
-  github           :
-  gitlab           :
-  google_plus      :
+  github           : morningspace
   keybase          :
-  instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
+  linkedin         : "mo-ying-17b04016"
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
@@ -270,3 +254,4 @@ defaults:
       share: true
       related: true
 
+github: [metadata]
