@@ -2,6 +2,7 @@
 permalink: /books/
 title: "书籍"
 toc: true
+toc_sticky: true
 ---
 
 ## 相关性搜索：利用Solr与Elasticsearch创建智能应用

@@ -6,5 +6,7 @@ main:
     url: "/books/"
   - title: "代码"
     url: "/code/"
+  - title: "影像"
+    url: "/photos/"
   - title: "关于"
     url: "/about/"
