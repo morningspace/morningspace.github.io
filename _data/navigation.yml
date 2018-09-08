@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "文章"
+  - title: "Posts"
     url: "/"
-  - title: "书籍"
+  - title: "Books"
     url: "/books/"
-  - title: "代码"
+  - title: "Code"
     url: "/code/"
-  - title: "影像"
+  - title: "Photos"
     url: "/photos/"
-  - title: "关于"
+  - title: "About"
     url: "/about/"

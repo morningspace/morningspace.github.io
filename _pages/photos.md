@@ -1,6 +1,6 @@
 ---
 permalink: /photos/
-title: "影像"
+title: "Photos"
 toc: true
 toc_sticky: true
 ---
