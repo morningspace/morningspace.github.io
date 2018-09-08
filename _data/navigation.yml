@@ -1,4 +1,10 @@
 # main links
 main:
+  - title: "文章"
+    url: "/"
+  - title: "书籍"
+    url: "/books/"
+  - title: "代码"
+    url: "/code/"
   - title: "关于"
-    url: /about/
+    url: "/about/"
