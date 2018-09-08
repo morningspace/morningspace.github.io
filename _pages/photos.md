@@ -1,8 +1,9 @@
 ---
 permalink: /photos/
-title: "Photos"
+title: "照片"
 toc: true
 toc_sticky: true
+excerpt: "收录本人以往参与活动的照片"
 ---
 
 ## [2009 - Scott W. Ambler先生2009年来华访问](scott)

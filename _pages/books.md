@@ -1,9 +1,9 @@
 ---
 permalink: /books/
-title: "Books"
+title: "书籍"
 toc: true
 toc_sticky: true
-excerpt: "收录本人往年公开发行的写译作品"
+excerpt: "收录本人公开发行的写译作品"
 ---
 
 ## 相关性搜索：利用Solr与Elasticsearch创建智能应用
