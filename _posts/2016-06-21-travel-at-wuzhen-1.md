@@ -6,30 +6,30 @@ tags: [travel]
 toc: true
 toc_sticky: true
 gallery1:
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/397s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/397s.jpg"
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/251s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/251s.jpg"
+  - url: "/assets/images/wuzhen/397s.jpg"
+    image_path: "/assets/images/wuzhen/397s.jpg"
+  - url: "/assets/images/wuzhen/251s.jpg"
+    image_path: "/assets/images/wuzhen/251s.jpg"
 gallery2:
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/174s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/174s.jpg"
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/213s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/213s.jpg"
+  - url: "/assets/images/wuzhen/174s.jpg"
+    image_path: "/assets/images/wuzhen/174s.jpg"
+  - url: "/assets/images/wuzhen/213s.jpg"
+    image_path: "/assets/images/wuzhen/213s.jpg"
 gallery3:
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/172s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/172s.jpg"
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/218s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/218s.jpg"
+  - url: "/assets/images/wuzhen/172s.jpg"
+    image_path: "/assets/images/wuzhen/172s.jpg"
+  - url: "/assets/images/wuzhen/218s.jpg"
+    image_path: "/assets/images/wuzhen/218s.jpg"
 gallery4:
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/175s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/175s.jpg"
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/166s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/166s.jpg"
+  - url: "/assets/images/wuzhen/175s.jpg"
+    image_path: "/assets/images/wuzhen/175s.jpg"
+  - url: "/assets/images/wuzhen/166s.jpg"
+    image_path: "/assets/images/wuzhen/166s.jpg"
 gallery5:
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/207s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/207s.jpg"
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/239s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/239s.jpg"
+  - url: "/assets/images/wuzhen/207s.jpg"
+    image_path: "/assets/images/wuzhen/207s.jpg"
+  - url: "/assets/images/wuzhen/239s.jpg"
+    image_path: "/assets/images/wuzhen/239s.jpg"
 ---
 
 ## 引子

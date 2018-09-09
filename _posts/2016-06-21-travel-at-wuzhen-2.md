@@ -6,22 +6,22 @@ tags: [travel]
 toc: true
 toc_sticky: true
 gallery1:
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/269s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/269s.jpg"
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/284s-1.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/284s-1.jpg"
+  - url: "/assets/images/wuzhen/269s.jpg"
+    image_path: "/assets/images/wuzhen/269s.jpg"
+  - url: "/assets/images/wuzhen/284s-1.jpg"
+    image_path: "/assets/images/wuzhen/284s-1.jpg"
 gallery2:
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/382s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/382s.jpg"
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/273s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/273s.jpg"
+  - url: "/assets/images/wuzhen/382s.jpg"
+    image_path: "/assets/images/wuzhen/382s.jpg"
+  - url: "/assets/images/wuzhen/273s.jpg"
+    image_path: "/assets/images/wuzhen/273s.jpg"
 gallery3:
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/299s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/299s.jpg"
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/338s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/338s.jpg"
-  - url: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/350s.jpg"
-    image_path: "http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/350s.jpg"
+  - url: "/assets/images/wuzhen/299s.jpg"
+    image_path: "/assets/images/wuzhen/299s.jpg"
+  - url: "/assets/images/wuzhen/338s.jpg"
+    image_path: "/assets/images/wuzhen/338s.jpg"
+  - url: "/assets/images/wuzhen/350s.jpg"
+    image_path: "/assets/images/wuzhen/350s.jpg"
 
 ---
 
@@ -59,4 +59,4 @@ gallery3:
 
 在一座石桥上四处张望，偶然发现不远处一座民宅模样的建筑，在灯光的映衬下甚是好看。尤其是白色的砖瓦墙，由于灯光运用的恰到好处，远远望去就像水墨在宣纸上蕴开了一般，显得格外曼妙。于是果断按下快门，成就了这次乌镇之行最为满意的一帧画面。此时再定睛一看，原来那座房屋竟是我们入住的客栈。于是恍然，最美的风景，原来就在身边。
 
-![image-center](http://morningspace.wicp.net:9002/weblog/wp-content/uploads/2016/06/373s.jpg){: .align-center}
+![image-center](/assets/images/wuzhen/373s.jpg){: .align-center}
