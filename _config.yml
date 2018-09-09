@@ -253,6 +253,10 @@ defaults:
       path: ""
       type: posts
     values:
+      header:
+        overlay_color: "#333"
+        overlay_filter: 0.3
+        overlay_image: "/assets/images/banner.jpg"
       layout: single
       author_profile: true
       read_time: true
@@ -264,6 +268,10 @@ defaults:
       path: ""
       type: pages
     values:
+      header:
+        overlay_color: "#333"
+        overlay_filter: 0.3
+        overlay_image: "/assets/images/banner.jpg"
       layout: single
       author_profile: true
   # _photos
@@ -271,6 +279,10 @@ defaults:
       path: ""
       type: photos
     values:
+      header:
+        overlay_color: "#333"
+        overlay_filter: 0.3
+        overlay_image: "/assets/images/banner.jpg"
       layout: single
       author_profile: true
       share: true

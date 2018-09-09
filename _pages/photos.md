@@ -6,11 +6,11 @@ toc_sticky: true
 excerpt: "收录本人以往参与活动的照片"
 ---
 
-## [2009 - Scott W. Ambler先生2009年来华访问](scott)
+## [2009 - Scott Ambler先生来华访问](scott)
 
 | 2009年12月，适逢Scott W. Ambler先生来华，应《程序员》杂志之邀，对其进行了采访，这是当日所拍的部分照片。(照片来源于《程序员》杂志社)
 
-## [2009 - Kent Beck先生2009年中国之行](kent)
+## [2009 - Kent Beck先生中国之行](kent)
 
 | 2009年9月初，有幸参加了Kent Beck先生首次中国之行的Workshop，这是当日所拍的部分照片。
 

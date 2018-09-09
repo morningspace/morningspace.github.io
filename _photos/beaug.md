@@ -1,6 +1,6 @@
 ---
 title: "BEA UG活动"
-excerpt: "2006年3月25日，应邀参加BEA北京User Group活动，这次活动的主题是开源软件开发大讲堂之Spring篇。"
+excerpt: ""
 gallery:
   - url: "photos/beaug/beaug_20060325_1.jpg"
     image_path: "photos/beaug/beaug_20060325_1.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "AgileChina & BJUG首次联合聚会活动"
-excerpt: "2006年12月16日，AgileChina与BJUG的首次联合聚会活动，采用类似unconference的组织方式，参加者有三四十人之多，着实热闹空前。"
+excerpt: ""
 gallery:
   - url: "photos/agilechina/agilechina_20061216_1.jpg"
     image_path: "photos/agilechina/agilechina_20061216_1.jpg"

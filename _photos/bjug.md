@@ -1,6 +1,6 @@
 ---
 title: "BJUG活动之“XP Game”"
-excerpt: "2006年10月29日，BJUG的一次线下活动，活动内容是寓教于乐、生动有趣的Lego积木游戏，与会者籍此身临其境的体验了一番XP实践。"
+excerpt: ""
 gallery:
   - url: "photos/bjug/xpgame_20061029_1.jpg"
     image_path: "photos/bjug/xpgame_20061029_1.jpg"

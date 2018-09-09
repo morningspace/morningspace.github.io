@@ -1,6 +1,6 @@
 ---
 title: "“应用敏捷开发迎接企业挑战”专题沙龙"
-excerpt: "2007年7月12日，应邀参加由Telelogic与CSDN共同举办的“应用敏捷开发迎接企业挑战”专题沙龙活动。"
+excerpt: ""
 gallery:
   - url: "photos/telelogicagile/telelogicagile_20070712_1.gif"
     image_path: "photos/telelogicagile/telelogicagile_20070712_1.gif"

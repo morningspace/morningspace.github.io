@@ -1,6 +1,6 @@
 ---
 title: "Martin Fowler在线访谈活动"
-excerpt: "恰逢“敏捷中国日”活动进行之际，于2006年6月2日应邀参加赛迪网对Martin Fowler先生的在线访谈节目。"
+excerpt: ""
 gallery:
   - url: "photos/martin/mf_20060602_1.jpg"
     image_path: "photos/martin/mf_20060602_1.jpg"
