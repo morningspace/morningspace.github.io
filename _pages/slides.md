@@ -9,7 +9,8 @@ excerpt: "收录本人以往公开演讲的讲义"
 ## 深入浅出LoopBack
 
 2018年3月至5月间，受邀为“开放技术 * IBM微讲堂”设计LoopBack系列课程，并参与主讲了其中部分课。
-* 完整讲义可在线访问[这里](http://morningspace.github.io/understanding-loopback/)
+
+* 完整讲义可在线访问[这里](http://morningspace.github.io/understanding-loopback)
 * 与之配套的示例代码可访问[这里](https://github.com/morningspace/understanding-loopback/tree/master/code)
 * 课程全部内容的在线视频，请见：
 
@@ -25,4 +26,6 @@ excerpt: "收录本人以往公开演讲的讲义"
 ## 理解TypeScript
 
 2018年8月，为了在公司内部产品研发团队推广TypeScript的使用，特制作了一辑幻灯，并在内部做了分享。
-* 完整讲义可在线访问[这里](https://github.com/morningspace/understanding-typescript)。
+
+* 完整讲义可在线访问[这里](https://morningspace.github.io/understanding-typescript)
+* 与之配套的示例代码可访问[这里](https://github.com/morningspace/understanding-typescript/tree/master/code)
