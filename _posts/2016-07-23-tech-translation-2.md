@@ -1,6 +1,6 @@
 ---
 title: 技术翻译二三事（下）
-excerpt: ""
+excerpt: "我在过去技术翻译中所积累的一点心得"
 categories: [blog, tech]
 tags: [book]
 ---

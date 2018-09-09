@@ -1,6 +1,6 @@
 ---
 title: 水乡古镇游—乌镇篇（下）
-excerpt: ""
+excerpt: "日游西栅，尾声"
 categories: [blog, life]
 tags: [travel]
 toc: true

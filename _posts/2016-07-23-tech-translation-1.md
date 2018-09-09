@@ -1,6 +1,6 @@
 ---
 title: 技术翻译二三事（上）
-excerpt: ""
+excerpt: "将自己在技术翻译的路上磕磕绊绊过来的情形记诸文字"
 categories: [blog, tech]
 tags: [book]
 ---

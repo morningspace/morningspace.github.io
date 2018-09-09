@@ -1,6 +1,6 @@
 ---
 title: 水乡古镇游—乌镇篇（中）
-excerpt: ""
+excerpt: "入住民宿，夜游西栅"
 categories: [blog, life]
 tags: [travel]
 toc: true
