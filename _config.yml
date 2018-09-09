@@ -259,7 +259,7 @@ defaults:
         overlay_image: "/assets/images/banner.jpg"
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
