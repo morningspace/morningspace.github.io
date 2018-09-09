@@ -25,4 +25,4 @@ excerpt: "收录本人以往公开演讲的讲义"
 ## 理解TypeScript
 
 2018年8月，为了在公司内部产品研发团队推广TypeScript的使用，特制作了一辑幻灯，并在内部做了分享。
-* 完整讲义可在线访问[这里]((https://github.com/morningspace/understanding-typescript))。
+* 完整讲义可在线访问[这里](https://github.com/morningspace/understanding-typescript)。
