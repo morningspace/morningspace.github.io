@@ -11,7 +11,7 @@ excerpt: "收录本人以往公开演讲的讲义"
 2018年3月至5月间，受邀为“开放技术 * IBM微讲堂”设计LoopBack系列课程，并参与主讲了其中部分课。
 * 完整讲义可在线访问[这里](http://morningspace.github.io/understanding-loopback/)
 * 与之配套的示例代码可访问[这里](https://github.com/morningspace/understanding-loopback/tree/master/code)
-* 课程全部内容的视频回放，请见：
+* 课程全部内容的在线视频，请见：
 
 | 日期		  | 视频
 | ---- 		|:----
