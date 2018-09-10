@@ -1,7 +1,7 @@
 ---
 permalink: /code/
 title: "代码"
-excerpt: "收录本人公开的源码小品"
+excerpt: "收录公开的源码小品"
 ---
 
 * [VimRepress](https://github.com/morningspace/VimRepress), Vim插件，用于在Vim中编写WordPress文章，基于VimPress及VimRepress的改良版。
