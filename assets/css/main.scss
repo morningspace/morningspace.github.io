@@ -7,8 +7,14 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.page__content h3 { padding-bottom: 0.5em; border-bottom: 1px solid #51555d; }
+
 .page__content li, .page__content p { font-size: 0.85em; }
 .page__content .toc__menu li { font-size: 1em; }
+
 .pagination--pager { padding: 0.5em 2em; }
+
 .search-content .search-input { font-size: 1.5em; }
-div.highlighter-rouge, figure.highlight { background: #eee; }
+
+div.highlighter-rouge, figure.highlight { background: #000; color: #fff; font-size: 0.7em; }
+.highlight .nb { color: #fff; }

@@ -1,8 +1,8 @@
 ---
 title: 我为什么要来IBM微讲堂讲LoopBack？
 excerpt: "为IBM微讲堂的LoopBack系列课程作推广序"
-categories: [blog, tech]
-tags: [loopback]
+categories: [tech]
+tags: [loopback, training]
 toc: true
 toc_sticky: true
 ---
@@ -75,13 +75,10 @@ If this fails, try running the command yourself.
 当一切准备就绪，loopback-cli会为我们生成相应的代码，并自动为我们安装当前应用所依赖的所有第三方npm包。待loopback-cli安装完所有依赖之后，我们会看到类似如下的提示：
 ```shell
 Next steps:
-
   Change directory to your app
     $ cd hello-world
-
   Create a model in your app
     $ slc loopback:model
-
   Run the app
     $ node .
 ```
