@@ -17,4 +17,5 @@
 .search-content .search-input { font-size: 1.5em; }
 
 div.highlighter-rouge, figure.highlight { background: #000; color: #fff; font-size: 0.7em; }
-.highlight .nb { color: #fff; }
+.highlight .nb, .highlight .n, .highlight .p, .highlight .gh, .highlight .ni, 
+.highlight .nl, .highlight .py, .highlight .w, .highlight .sc, .highlight .bp { color: #fff; }
