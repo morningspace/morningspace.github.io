@@ -1,9 +1,9 @@
 ---
-permalink: /slides/
-title: "讲义"
+permalink: /tutorials/
+title: "教程"
 toc: true
 toc_sticky: true
-excerpt: "收录本人以往公开演讲的讲义"
+excerpt: "收录本人以往公开的演讲，教程，及培训讲义"
 ---
 
 ## 深入浅出LoopBack
