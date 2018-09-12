@@ -56,4 +56,4 @@ excerpt: "收录公开的演讲，教程，及培训讲义"
 | ---- 	|:----
 | 《Load Balancing Using HAProxy and Keepalived》 | [幻灯](https://morningspace.github.io/mytutorials/using-haproxy-keepalived/slides) [示例](https://github.com/morningspace/mytutorials/tree/master/using-haproxy-keepalived/samples)
 
-注：2018年9月，将近期采用HAProxy和Keepalived搭建高可用负载均衡服务的经验集结成幻灯。
+*注：2018年9月，将近期采用HAProxy和Keepalived搭建高可用负载均衡服务的经验集结成幻灯。*
