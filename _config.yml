@@ -288,3 +288,7 @@ defaults:
       share: true
 
 github: [metadata]
+
+footer_scripts:
+  - /assets/js/fontawesome_v5.3.1_all.js
+  - /assets/js/main.min.js
