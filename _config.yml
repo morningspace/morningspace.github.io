@@ -55,8 +55,9 @@ staticman:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : https://my-staticman.herokuapp.com/v2/entry/ # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey                :
-  secret                 :
+  enabled                : true
+  siteKey                : "6LcJz3IUAAAAAFv0v-A6OTcO8m4eWb3G9SqQDT7N"
+  secret                 : "Z5RwfQVUMzfLjPkFk5PPOV0h2kYDqHhiwcMkFZxAtYhEq9P+Et6sVJrItJKFaYu4C9VDZzl7MJSg8cb5kTqk1lr4RnWlEWVIN81W+MDtCaZtSlLob1A8d/tCa0FG3TMNqV15nizZi0reCgC7v29MC+li4TYL4q6E0okvdmsvYYL3woira5uDStFxzEyoOpfnrAUos3S6lmkoyMgPuIqtlt8A91E1NX30ddZ9dRR8JnEb2aiOeDhl4aL70FD9X3mNMAXsNkp4kzifGgh9fr7CeCzB6DOXzFWJJaZcRZMmMU4TdvtpHEnok0E9qRuzpvFCuJjk5rjGCHPg+ueml7yuuQ=="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
