@@ -96,7 +96,7 @@
             </form>
           </div>
           <!-- End new comment form -->
-          {% if site.reCaptcha.siteKey %}<script async src="https://recaptcha.net/recaptcha/api.js?hl={{ site.locale }}"></script>{% endif %}
+          {% if site.reCaptcha.siteKey %}<script async src="https://recaptcha.net/recaptcha/api.js?hl={{ page.lang | default: site.locale }}"></script>{% endif %}
         {% endif %}
       </section>
     {% when "staticman" %}
