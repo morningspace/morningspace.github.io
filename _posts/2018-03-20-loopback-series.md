@@ -7,6 +7,8 @@ toc: true
 toc_sticky: true
 ---
 
+> 本文首发于[IBM Developer](https://developer.ibm.com/cn/blog/2018/opentech-loopback-why/)
+
 开源技术*IBM微讲堂的[《Nodejs应用开发新秀——深入浅出LoopBack》](https://developer.ibm.com/cn/blog/2018/opentec-loopback/)系列即将于3月22日和各位同学见面了。作为这一系列课程的设计者与合作参与者，为了能够让大家更好的理解这门课程的设计背景与设计思路，以及LoopBack本身的来龙去脉，以便在开课之前能够有所铺垫，特撰此文与诸位分享。
 
 ## 缘起
