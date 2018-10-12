@@ -1,3 +1,6 @@
 _site
 _drafts
+vendor
 .sass-cache
+.bundle
+Gemfile*
