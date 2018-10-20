@@ -1,6 +1,6 @@
 ---
 permalink: /photos/
-title: "照片"
+title: "晴耕掠影"
 toc: true
 toc_sticky: true
 excerpt: "收录以往参与活动的光影留念"

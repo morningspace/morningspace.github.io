@@ -1,6 +1,6 @@
 ---
 permalink: /books/
-title: "书籍"
+title: "晴耕书斋"
 excerpt: "收录公开发行的写译作品"
 toc: true
 toc_sticky: true

@@ -1,6 +1,6 @@
 ---
 permalink: /code/
-title: "代码"
+title: "晴耕工坊"
 excerpt: "收录公开的源码小品"
 ---
 

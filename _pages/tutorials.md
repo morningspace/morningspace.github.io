@@ -1,9 +1,9 @@
 ---
 permalink: /tutorials/
-title: "教程"
+title: "晴耕实验室"
 toc: true
 toc_sticky: true
-excerpt: "收录公开的演讲，教程，及培训讲义"
+excerpt: "收录公开的教程，培训，及演讲"
 ---
 
 ## 深入浅出LoopBack
