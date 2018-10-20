@@ -1,5 +1,5 @@
 ---
-permalink: /tutorials/
+permalink: /lab/
 title: "晴耕实验室"
 toc: true
 toc_sticky: true

@@ -5,7 +5,7 @@ main:
   - title: "书斋"
     url: "/books/"
   - title: "实验室"
-    url: "/tutorials/"
+    url: "/lab/"
   - title: "工坊"
     url: "/code/"
   - title: "掠影"
