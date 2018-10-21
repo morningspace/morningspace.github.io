@@ -14,7 +14,7 @@ tags: [news, lab]
 目前，“晴耕实验室”公开的实验项目包括：
 
 * 今年上半年专门为“开放技术 * IBM微讲堂”活动而设计的LoopBack系列课程——[深入浅出LoopBack（Understanding LoopBack）](/lab-loopback)。该课程全部内容均以公开，包括幻灯，示例，及视频。详情请见该实验项目的[GitHub库](https://github.com/morningspace/lab-loopback)，或“晴耕实验室”的[主页](/lab/#%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAloopback)。还有一篇名为[“我为什么要来IBM微讲堂讲LoopBack？”](/tech/loopback-series)的文章。详述了课程设计的背景，课程安排，以及配套演示项目TaskMe的介绍。该文首发于[IBM Developer](https://developer.ibm.com/cn/blog/2018/opentech-loopback-why/)。
-* 近期开始将逐步与大家见面的TypeScript系列讲座——[通往TypeScript之路（The Path to TypeScript）](https://github.com/morningspace/lab-typescript)。该课程将分阶段逐步上线。其中，幻灯与示例目前已经可以访问了。详情请见该实验项目的[GitHub库](https://github.com/morningspace/lab-typescript)。至于视频，则计划从今天开始，每周上线一集，欢迎各位届时收看。课程视频具体安排如下：
+* 近期开始将逐步与大家见面的TypeScript系列讲座——[通往TypeScript之路（The Path to TypeScript）](/lab-typescript)。该课程将分阶段逐步上线。其中，幻灯与示例目前已经可以访问了。详情请见该实验项目的[GitHub库](https://github.com/morningspace/lab-typescript)。至于视频，则计划从今天开始，每周上线一集，欢迎各位届时收看。课程视频具体安排如下：
 
 | 课程 	| 时长
 | ---- 	|:----
