@@ -2,7 +2,7 @@
 title: 晴耕小记
 excerpt: 老铺新张，重装上线
 categories: [tech]
-tags: [thoughts]
+tags: [news]
 toc: true
 toc_sticky: true
 ---
