@@ -6,6 +6,26 @@ toc_sticky: true
 excerpt: "收录公开的教程，培训，及演讲"
 ---
 
+## [The Path to TypeScript](https://github.com/morningspace/lab-typescript)
+
+TypeScript是JavaScript的一个超集。目前已被业界和社区广泛使用。
+
+* 为什么TypeScript如此流行？
+* 什么是TypeScript？
+* 我们如何将一个传统的JavaScript项目迁移到TypeScript？
+
+在本教程中，我们将透过现场演示和实际案例来一探究竟。
+
+| 课程 	| 资源
+| ---- 	|:----
+| 《The Path to TypeScript》 | [幻灯](https://morningspace.github.io/lab-typescript) [示例](https://github.com/morningspace/lab-typescript/tree/master/code)
+| 第一部分《为什么选择TypeScript》 | [视频](http://v.youku.com/v_show/id_XMzg3OTg4NTgxNg==.html  "14'16"")
+| 第二部分《什么是TypeScript》 | 视频
+| 第三部分《代码演示》 | 视频
+| 第四部分《如何迁移到TypeScript》 | 视频
+
+注：2018年8月，为在公司内部产品研发团队推广TypeScript的使用而编制的幻灯与示例代码。
+
 ## [深入浅出LoopBack](https://github.com/morningspace/lab-loopback)
 
 优秀的Node.js开源技术框架 —— LoopBack，构建于鼎鼎大名的Express之上，是支撑API经济这一理念的积极实践者。
