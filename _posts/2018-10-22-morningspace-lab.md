@@ -18,10 +18,10 @@ tags: [news, lab]
 
 | 课程 	| 时长
 | ---- 	|:----
-| [第一部分《为什么选择TypeScript》](http://v.youku.com/v_show/id_XMzg3OTg4NTgxNg==.html) | 14'16"
-| 第二部分《什么是TypeScript》 | 15'41"
-| 第三部分《代码演示》 | 30'19"
-| 第四部分《如何迁移到TypeScript》 | 18'09"
+| [第一集《为什么选择TypeScript》](http://v.youku.com/v_show/id_XMzg3OTg4NTgxNg==.html) | 14'16"
+| 第二集《什么是TypeScript》 | 15'41"
+| 第三集《代码演示》 | 30'19"
+| 第四集《如何迁移到TypeScript》 | 18'09"
 
 “晴耕实验室”倾注了“晴耕小筑”的热情与心血，未来还会有更多筹划中的 **创意课程** 逐步和大家见面！
 
