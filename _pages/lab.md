@@ -6,7 +6,7 @@ toc_sticky: true
 excerpt: "收录公开的教程，培训，及演讲"
 ---
 
-## [The Path to TypeScript](https://github.com/morningspace/lab-typescript)
+## [通往TypeScript之路](https://github.com/morningspace/lab-typescript)
 
 TypeScript是JavaScript的一个超集。目前已被业界和社区广泛使用。
 
@@ -20,7 +20,7 @@ TypeScript是JavaScript的一个超集。目前已被业界和社区广泛使用
 | ---- 	|:----
 | 《The Path to TypeScript》 | [幻灯](https://morningspace.github.io/lab-typescript) [示例](https://github.com/morningspace/lab-typescript/tree/master/code)
 | 第一集《为什么选择TypeScript》 | [视频](http://v.youku.com/v_show/id_XMzg3OTg4NTgxNg==.html  "14'16"")
-| 第二集《什么是TypeScript》 | 视频
+| 第二集《什么是TypeScript》 | [视频](http://v.youku.com/v_show/id_XMzg4OTkyMDU0MA==.html "15'41"")
 | 第三集《代码演示》 | 视频
 | 第四集《如何迁移到TypeScript》 | 视频
 
