@@ -1,12 +1,6 @@
 # main links
 main:
-  - title: "视界"
+  - title: "文章"
     url: "/"
-  - title: "书斋"
-    url: "/books/"
   - title: "实验室"
     url: "/lab/"
-  - title: "工坊"
-    url: "/code/"
-  - title: "掠影"
-    url: "/photos/"
