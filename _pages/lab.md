@@ -22,7 +22,7 @@ TypeScript是JavaScript的一个超集。目前已被业界和社区广泛使用
 | 第一集《为什么选择TypeScript》 | [视频](http://v.youku.com/v_show/id_XMzg3OTg4NTgxNg==.html  "14'16"")
 | 第二集《什么是TypeScript》 | [视频](http://v.youku.com/v_show/id_XMzg4OTkyMDU0MA==.html "15'41"")
 | 第三集《代码演示》 | [视频](http://v.youku.com/v_show/id_XMzkwMzA1NzQ4MA==.html "30'19"")
-| 第四集《如何迁移到TypeScript》 | 视频
+| 第四集《如何迁移到TypeScript》 | [视频](http://v.youku.com/v_show/id_XMzkxMjg2NjI5Mg==.html "18'09"")
 
 注：2018年8月，为在公司内部产品研发团队推广TypeScript的使用而编制的幻灯与示例代码。
 
