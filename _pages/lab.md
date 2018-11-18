@@ -17,8 +17,8 @@ HAProxy是目前十分流行的负载均衡解决方案，结合Keepalived的使
 
 | 课程 	| 资源
 | ---- 	|:----
-| 《HAProxy + Keepalived: Build Your Load Balancer in 30 Munitues》 | [幻灯](https://morningspace.github.io/lab-load-balancing) [示例](https://github.com/morningspace/lab-load-balancing/tree/master/conf/samples)
-| 第一集《利用HAProxy搭建基本的负载均衡》 | [视频]()
+| 《HAProxy + Keepalived: Build Your Load Balancer in 30 Munitues》 | [幻灯](https://morningspace.github.io/lab-load-balancing/slides) [示例](https://github.com/morningspace/lab-load-balancing/tree/master/conf/samples)
+| 第一集《利用HAProxy搭建基本的负载均衡》 | [视频](http://v.youku.com/v_show/id_XMzkyNTAzODg3Ng==.html "29'41"")
 | 第二集《为HAProxy配置SSL和健康检查》 | 视频
 | 第三集《利用Keepalived解决单点故障》 | 视频
 | 第四集《HAProxy+Keepalived:自己动手玩转负载均衡》 | 视频
