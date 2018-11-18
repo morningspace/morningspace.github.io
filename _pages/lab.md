@@ -6,6 +6,25 @@ toc_sticky: true
 excerpt: "收录公开的教程，培训，及演讲"
 ---
 
+## [HAProxy+Keepalived:自己动手玩转负载均衡](https://github.com/morningspace/lab-load-balancing)
+
+HAProxy是目前十分流行的负载均衡解决方案，结合Keepalived的使用可以解决HAProxy自身的单点故障，实现高可用的负载均衡服务。
+
+在本教程中，我们将一步步学会:
+* 如何安装，配置，调试HAProxy与Keepalived
+* 如何为负载均衡配置SSL
+* 如何实现对后端服务及HAProxy自身的健康检查
+
+| 课程 	| 资源
+| ---- 	|:----
+| 《HAProxy + Keepalived: Build Your Load Balancer in 30 Munitues》 | [幻灯](https://morningspace.github.io/lab-load-balancing/slides) [示例](https://github.com/morningspace/lab-load-balancing/tree/master/conf/samples)
+| 第一集《利用HAProxy搭建基本的负载均衡》 | [视频](http://v.youku.com/v_show/id_XMzkyNTAzODg3Ng==.html "29'41"")
+| 第二集《为HAProxy配置SSL和健康检查》 | 视频
+| 第三集《利用Keepalived解决单点故障》 | 视频
+| 第四集《HAProxy+Keepalived:自己动手玩转负载均衡》 | 视频
+
+*注：2018年9月，将近期采用HAProxy和Keepalived搭建高可用负载均衡服务的经验集结成幻灯。*
+
 ## [通往TypeScript之路](https://github.com/morningspace/lab-typescript)
 
 TypeScript是JavaScript的一个超集。目前已被业界和社区广泛使用。
