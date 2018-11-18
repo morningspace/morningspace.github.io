@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-![](/assets/images/lab/lb.png)
+![](/assets/images/lab/lb.jpg)
 
 > 透过4段系列视频，手把手，全方位教会你如何搭建高可用的负载均衡服务
 >
