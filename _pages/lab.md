@@ -21,7 +21,7 @@ HAProxy是目前十分流行的负载均衡解决方案，结合Keepalived的使
 | 第一集《HAProxy基础》 | [视频](http://v.youku.com/v_show/id_XMzkyNTAzODg3Ng==.html "29'41"")
 | 第二集《配置SSL和健康检查》 | [视频](http://v.youku.com/v_show/id_XMzkzNTM5MzIzMg==.html "25'49"")
 | 第三集《利用Keepalived解决单点故障》 | [视频](http://v.youku.com/v_show/id_XMzk0NTE4OTk5Ng==.html "24'07"")
-| 第四集《如何操作“自己动手玩转负载均衡”实验项目》 | [视频(YOUKU)](http://v.youku.com/v_show/id_XMzk1NDg5Mzk2NA==.html?f=51967588 "26'15"") [视频(YouTube)](https://youtu.be/jzXzUojGneA "26'15"")
+| 第四集《如何操作“自己动手玩转负载均衡”实验项目》 | [视频1](http://v.youku.com/v_show/id_XMzk1NDg5Mzk2NA==.html?f=51967588 "YOUKU 26'15"") [视频2](https://youtu.be/jzXzUojGneA "YouTube 26'15"")
 
 *注：2018年9月，将近期采用HAProxy和Keepalived搭建高可用负载均衡服务的经验集结成幻灯。*
 
