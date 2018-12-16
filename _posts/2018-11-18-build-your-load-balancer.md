@@ -1,7 +1,7 @@
 ---
 title: 自己动手玩转负载均衡
 excerpt: "手把手，全方位教你如何在本机搭建高可用负载均衡集群！"
-categories: [tech]
+categories: [tech, lab]
 tags: [haproxy, keepalived, loadbalancing, training]
 toc: true
 toc_sticky: true

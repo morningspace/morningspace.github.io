@@ -6,6 +6,26 @@ toc_sticky: true
 excerpt: "收录公开的教程，培训，及演讲"
 ---
 
+## [Hello Git](https://github.com/morningspace/lab-hello-git)
+
+短视频 + Docker镜像 + 小抄 + GitHub项目，全方位教你如何用好Git！
+
+* 14个短视频：身临其境讲述Git基本概念与常见用法
+* 2个Docker镜像：提供超方便客户端服务端（含图形界面）实验环境
+* 1篇小抄：记录Git常见用法对应命令
+* 1个GitHub项目：包含Docker镜像源码及说明文档
+
+| 课程 	| 资源
+| ---- 	|:----
+| 《如何使用Hello Git》 | [视频](http://v.youku.com/v_show/id_XMzk2NjQ5NzcyNA==.html) 《Git小抄》
+| 《新建本地库》/《连接远程库》/《添加新文件》 | 视频 视频 视频
+| 《理解暂存》 | 视频
+| 《恢复到指定版本》/《撤销本地更改》/《删除文件》 | 视频 视频 视频
+| 《理解分支》 | 视频
+| 《利用分支修复bug》/《利用分支开发特性》 | 视频 视频
+| 《解决分支冲突》/《解决多人开发冲突》 | 视频 视频
+| 《理解rebase》/《管理标签》 | 视频 视频
+
 ## [HAProxy+Keepalived:自己动手玩转负载均衡](https://github.com/morningspace/lab-load-balancing)
 
 HAProxy是目前十分流行的负载均衡解决方案，结合Keepalived的使用可以解决HAProxy自身的单点故障，实现高可用的负载均衡服务。
