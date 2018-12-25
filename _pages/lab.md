@@ -18,14 +18,21 @@ excerpt: "收录公开的教程，培训，及演讲"
 | 课程 	| 资源
 | ---- 	|:----
 | 《如何使用Hello Git》 | [视频1](http://v.youku.com/v_show/id_XMzk2NjQ5NzcyNA==.html "中文版 5'09"") [视频2](https://youtu.be/14pBZSXHz-Y "英文版 5'09"")
-| 《Hello Git Cheat Sheet(小抄)》 | 下载
-| 《新建本地库》/《连接远程库》/《添加新文件》 | 视频 视频 视频
+| 《新建本地库》 | [视频](http://v.youku.com/v_show/id_XMzk3NzM3OTIxMg==.html "中文版 0'53"")
+| 《添加新文件》 | [视频](http://v.youku.com/v_show/id_XMzk3ODM0NjU4MA==.html "中文版 1'29"")
+| 《连接远程库》 | [视频](http://v.youku.com/v_show/id_XMzk3ODQzMTU5Ng==.html "中文版 1'12"")
 | 《理解暂存》 | 视频
-| 《恢复到指定版本》/《撤销本地更改》/《删除文件》 | 视频 视频 视频
+| 《恢复到指定版本》 | 视频
+| 《撤销本地更改》 | 视频
+| 《删除文件》 | 视频
 | 《理解分支》 | 视频
-| 《利用分支修复bug》/《利用分支开发特性》 | 视频 视频
-| 《解决分支冲突》/《解决多人开发冲突》 | 视频 视频
-| 《理解rebase》/《管理标签》 | 视频 视频
+| 《利用分支修复bug》 | 视频
+| 《利用分支开发特性》 | 视频
+| 《解决分支冲突》 | 视频
+| 《解决多人开发冲突》 | 视频
+| 《理解rebase》 | 视频
+| 《管理标签》 | 视频
+| 《Hello Git Cheat Sheet(小抄)》 | 下载
 
 ## [HAProxy+Keepalived:自己动手玩转负载均衡](https://github.com/morningspace/lab-load-balancing)
 
