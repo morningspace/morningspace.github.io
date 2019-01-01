@@ -21,7 +21,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 | 《新建本地库》 | [视频](http://v.youku.com/v_show/id_XMzk3NzM3OTIxMg==.html "中文版 0'53"")
 | 《添加新文件》 | [视频](http://v.youku.com/v_show/id_XMzk3ODM0NjU4MA==.html "中文版 1'29"")
 | 《连接远程库》 | [视频](http://v.youku.com/v_show/id_XMzk3ODQzMTU5Ng==.html "中文版 1'12"")
-| 《理解暂存》 | 视频
+| 《理解暂存》 | [视频](http://v.youku.com/v_show/id_XMzk5MTU2NDk3Mg==.html "中文版 5'22"")
 | 《恢复到指定版本》 | 视频
 | 《撤销本地更改》 | 视频
 | 《删除文件》 | 视频
