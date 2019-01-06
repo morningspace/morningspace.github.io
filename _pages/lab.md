@@ -15,24 +15,24 @@ excerpt: "收录公开的教程，培训，及演讲"
 * 1篇小抄：记录Git常见用法对应命令
 * 1个GitHub项目：包含Docker镜像源码及说明文档
 
-| 课程 	| 资源
-| ---- 	|:----
-| 《如何使用Hello Git》 | [视频1](http://v.youku.com/v_show/id_XMzk2NjQ5NzcyNA==.html "中文版 5'09"") [视频2](https://youtu.be/14pBZSXHz-Y "英文版 5'09"")
-| 《新建本地库》 | [视频](http://v.youku.com/v_show/id_XMzk3NzM3OTIxMg==.html "中文版 0'53"")
-| 《添加新文件》 | [视频](http://v.youku.com/v_show/id_XMzk3ODM0NjU4MA==.html "中文版 1'29"")
-| 《连接远程库》 | [视频](http://v.youku.com/v_show/id_XMzk3ODQzMTU5Ng==.html "中文版 1'12"")
-| 《理解暂存》 | [视频](http://v.youku.com/v_show/id_XMzk5MTU2NDk3Mg==.html "中文版 5'22"")
-| 《恢复到指定版本》 | [视频](http://v.youku.com/v_show/id_XMzk5OTA3MzE2NA==.html "中文版 2'40"")
-| 《撤销本地更改》 | [视频](http://v.youku.com/v_show/id_XMzk5OTA4NzY5Mg==.html "中文版 2'07"")
-| 《删除文件》 | [视频](http://v.youku.com/v_show/id_XMzk5OTA4ODI1Mg==.html "中文版 2'34"")
-| 《理解分支》 | 视频
-| 《利用分支修复bug》 | 视频
-| 《利用分支开发特性》 | 视频
-| 《解决分支冲突》 | 视频
-| 《解决多人开发冲突》 | 视频
-| 《理解rebase》 | 视频
-| 《管理标签》 | 视频
-| 《Hello Git Cheat Sheet(小抄)》 | 下载
+| 课程 	| 中文资源 	 	| 英文资源
+| ---- 	|:---- 	 	 	 	|:----
+| 《如何使用Hello Git》 | [视频](http://v.youku.com/v_show/id_XMzk2NjQ5NzcyNA==.html "中文版 5'09"")	| [视频](https://youtu.be/14pBZSXHz-Y "英文版 5'09"")
+| 《新建本地库》 				| [视频](http://v.youku.com/v_show/id_XMzk3NzM3OTIxMg==.html "中文版 0'53"") 	|
+| 《添加新文件》 				| [视频](http://v.youku.com/v_show/id_XMzk3ODM0NjU4MA==.html "中文版 1'29"") 	|
+| 《连接远程库》 				| [视频](http://v.youku.com/v_show/id_XMzk3ODQzMTU5Ng==.html "中文版 1'12"") 	|
+| 《理解暂存》 					| [视频](http://v.youku.com/v_show/id_XMzk5MTU2NDk3Mg==.html "中文版 5'22"") 	|
+| 《恢复到指定版本》 		| [视频](http://v.youku.com/v_show/id_XMzk5OTA3MzE2NA==.html "中文版 2'40"") 	|
+| 《撤销本地更改》 			| [视频](http://v.youku.com/v_show/id_XMzk5OTA4NzY5Mg==.html "中文版 2'07"") 	|
+| 《删除文件》 					| [视频](http://v.youku.com/v_show/id_XMzk5OTA4ODI1Mg==.html "中文版 2'34"") 	|
+| 《理解分支》 					| 视频 	|
+| 《利用分支修复bug》		| 视频 	|
+| 《利用分支开发特性》		| 视频 	|
+| 《解决分支冲突》 			| 视频 	|
+| 《解决多人开发冲突》 	| 视频 	|
+| 《理解rebase》 			| 视频 	|
+| 《管理标签》 					| 视频 	|
+| 《Hello Git Cheat Sheet(小抄)》 | 查看 	|
 
 ## [HAProxy+Keepalived:自己动手玩转负载均衡](https://github.com/morningspace/lab-load-balancing)
 
@@ -43,13 +43,13 @@ HAProxy是目前十分流行的负载均衡解决方案，结合Keepalived的使
 * 如何为负载均衡配置SSL
 * 如何实现对后端服务及HAProxy自身的健康检查
 
-| 课程 	| 资源
-| ---- 	|:----
-| 《HAProxy + Keepalived: Build Your Load Balancer in 30 Munitues》 | [幻灯](https://morningspace.github.io/lab-load-balancing/slides) [示例](https://github.com/morningspace/lab-load-balancing/tree/master/conf/samples)
+| 课程 	| 中文资源 	| 英文资源
+| ---- 	|:---- 	 	 	:----
+| 《HAProxy+Keepalived:自己动手玩转负载均衡》 | [幻灯](https://morningspace.github.io/lab-load-balancing/slides) [示例](https://github.com/morningspace/lab-load-balancing/tree/master/conf/samples)
 | 第一集《HAProxy基础》 | [视频](http://v.youku.com/v_show/id_XMzkyNTAzODg3Ng==.html "29'41"")
 | 第二集《配置SSL和健康检查》 | [视频](http://v.youku.com/v_show/id_XMzkzNTM5MzIzMg==.html "25'49"")
 | 第三集《利用Keepalived解决单点故障》 | [视频](http://v.youku.com/v_show/id_XMzk0NTE4OTk5Ng==.html "24'07"")
-| 第四集《如何操作“自己动手玩转负载均衡”实验项目》 | [视频1](http://v.youku.com/v_show/id_XMzk1NDg5Mzk2NA==.html?f=51967588 "YOUKU 26'15"") [视频2](https://youtu.be/jzXzUojGneA "YouTube 26'15"")
+| 第四集《如何操作“自己动手玩转负载均衡”实验项目》 | [视频](http://v.youku.com/v_show/id_XMzk1NDg5Mzk2NA==.html?f=51967588 "YOUKU 26'15"") 	| [视频](https://youtu.be/jzXzUojGneA "YouTube 26'15"")
 
 *注：2018年9月，将近期采用HAProxy和Keepalived搭建高可用负载均衡服务的经验集结成幻灯。*
 
