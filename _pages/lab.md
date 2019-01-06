@@ -22,9 +22,9 @@ excerpt: "收录公开的教程，培训，及演讲"
 | 《添加新文件》 | [视频](http://v.youku.com/v_show/id_XMzk3ODM0NjU4MA==.html "中文版 1'29"")
 | 《连接远程库》 | [视频](http://v.youku.com/v_show/id_XMzk3ODQzMTU5Ng==.html "中文版 1'12"")
 | 《理解暂存》 | [视频](http://v.youku.com/v_show/id_XMzk5MTU2NDk3Mg==.html "中文版 5'22"")
-| 《恢复到指定版本》 | 视频
-| 《撤销本地更改》 | 视频
-| 《删除文件》 | 视频
+| 《恢复到指定版本》 | [视频](http://v.youku.com/v_show/id_XMzk5OTA3MzE2NA==.html "中文版 2'40"")
+| 《撤销本地更改》 | [视频](http://v.youku.com/v_show/id_XMzk5OTA4NzY5Mg==.html "中文版 2'07"")
+| 《删除文件》 | [视频](http://v.youku.com/v_show/id_XMzk5OTA4ODI1Mg==.html "中文版 2'34"")
 | 《理解分支》 | 视频
 | 《利用分支修复bug》 | 视频
 | 《利用分支开发特性》 | 视频
