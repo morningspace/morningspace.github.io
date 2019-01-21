@@ -26,9 +26,9 @@ excerpt: "收录公开的教程，培训，及演讲"
 | 《撤销本地更改》 			| [视频](http://v.youku.com/v_show/id_XMzk5OTA4NzY5Mg==.html "中文版 2'07"") 	|
 | 《删除文件》 					| [视频](http://v.youku.com/v_show/id_XMzk5OTA4ODI1Mg==.html "中文版 2'34"") 	|
 | 《理解分支》 					| [视频](http://v.youku.com/v_show/id_XNDAxMTgxMjg4NA==.html "中文版 3'04"") 	|
+| 《解决分支冲突》 			| [视频](http://v.youku.com/v_show/id_XNDAyMzk0MTY1Ng==.html "中文版 3'57"") 	|
 | 《利用分支修复bug》		| 视频 	|
 | 《利用分支开发特性》		| 视频 	|
-| 《解决分支冲突》 			| 视频 	|
 | 《解决多人开发冲突》 	| 视频 	|
 | 《理解rebase》 			| 视频 	|
 | 《管理标签》 					| 视频 	|
