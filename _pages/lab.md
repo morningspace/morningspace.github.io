@@ -18,16 +18,16 @@ excerpt: "收录公开的教程，培训，及演讲"
 | 课程 	| 中文资源 	 	| 英文资源
 | ---- 	|:---- 	 	 	 	|:----
 | 《如何使用Hello Git》 | [视频](http://v.youku.com/v_show/id_XMzk2NjQ5NzcyNA==.html "中文版 5'09"")	| [视频](https://youtu.be/14pBZSXHz-Y "英文版 5'09"")
-| 《新建本地库》 				| [视频](http://v.youku.com/v_show/id_XMzk3NzM3OTIxMg==.html "中文版 0'53"") 	|
-| 《添加新文件》 				| [视频](http://v.youku.com/v_show/id_XMzk3ODM0NjU4MA==.html "中文版 1'29"") 	|
-| 《连接远程库》 				| [视频](http://v.youku.com/v_show/id_XMzk3ODQzMTU5Ng==.html "中文版 1'12"") 	|
-| 《理解暂存》 					| [视频](http://v.youku.com/v_show/id_XMzk5MTU2NDk3Mg==.html "中文版 5'22"") 	|
+| 《新建本地库》 				| [视频](http://v.youku.com/v_show/id_XMzk3NzM3OTIxMg==.html "中文版 0'53"") 	| [视频](https://youtu.be/q2De0LrOZFk "英文版 0'54"")
+| 《添加新文件》 				| [视频](http://v.youku.com/v_show/id_XMzk3ODM0NjU4MA==.html "中文版 1'29"") 	| [视频](https://youtu.be/yP9v4egMQwA "英文版 1'30"")
+| 《连接远程库》 				| [视频](http://v.youku.com/v_show/id_XMzk3ODQzMTU5Ng==.html "中文版 1'12"") 	| [视频](https://youtu.be/KjsexSUOdNA "英文版 1'13"")
+| 《理解暂存》 					| [视频](http://v.youku.com/v_show/id_XMzk5MTU2NDk3Mg==.html "中文版 5'22"") 	| [视频](https://youtu.be/dJSmmtiOoTM "英文版 5'45"")
 | 《恢复到指定版本》 		| [视频](http://v.youku.com/v_show/id_XMzk5OTA3MzE2NA==.html "中文版 2'40"") 	|
 | 《撤销本地更改》 			| [视频](http://v.youku.com/v_show/id_XMzk5OTA4NzY5Mg==.html "中文版 2'07"") 	|
 | 《删除文件》 					| [视频](http://v.youku.com/v_show/id_XMzk5OTA4ODI1Mg==.html "中文版 2'34"") 	|
 | 《理解分支》 					| [视频](http://v.youku.com/v_show/id_XNDAxMTgxMjg4NA==.html "中文版 3'04"") 	|
 | 《解决分支冲突》 			| [视频](http://v.youku.com/v_show/id_XNDAyMzk0MTY1Ng==.html "中文版 3'57"") 	|
-| 《利用分支修复bug》		| 视频 	|
+| 《利用分支修复bug》		| [视频](http://v.youku.com/v_show/id_XNDA1NTQ0Mzc2OA==.html "中文版 4'17"") 	|
 | 《利用分支开发特性》		| 视频 	|
 | 《解决多人开发冲突》 	| 视频 	|
 | 《理解rebase》 			| 视频 	|
