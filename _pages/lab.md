@@ -26,10 +26,10 @@ excerpt: "收录公开的教程，培训，及演讲"
 | 《撤销本地更改》 			| [视频](http://v.youku.com/v_show/id_XMzk5OTA4NzY5Mg==.html "中文版 2'07"") 	| [视频](https://youtu.be/7SpAQgzp0h8 "英文版 2'08"")
 | 《删除文件》 					| [视频](http://v.youku.com/v_show/id_XMzk5OTA4ODI1Mg==.html "中文版 2'34"") 	| [视频](https://youtu.be/MN0FMGIPMVM "英文版 2'35"")
 | 《理解分支》 					| [视频](http://v.youku.com/v_show/id_XNDAxMTgxMjg4NA==.html "中文版 3'04"") 	| [视频](https://youtu.be/1xx7-QDcQsY "英文版 3'04"")
-| 《解决分支冲突》 			| [视频](http://v.youku.com/v_show/id_XNDAyMzk0MTY1Ng==.html "中文版 3'57"") 	| 视频
+| 《解决分支冲突》 			| [视频](http://v.youku.com/v_show/id_XNDAyMzk0MTY1Ng==.html "中文版 3'57"") 	| [视频](https://youtu.be/wjz9tbGEvRg "英文版 3'57"")
 | 《利用分支修复bug》		| [视频](http://v.youku.com/v_show/id_XNDA1NTQ0Mzc2OA==.html "中文版 4'17"") 	| 视频
 | 《利用分支开发特性》		| [视频](http://v.youku.com/v_show/id_XNDA2NzQwMzU0MA==.html "中文版 3'51"") 	| 视频
-| 《解决多人开发冲突》 	| 视频 	| 视频
+| 《解决多人开发冲突》 	| [视频](http://v.youku.com/v_show/id_XNDA2NzQyNzMyNA==.html "中文版 5'43"") 	| 视频
 | 《理解rebase》 			| 视频 	| 视频
 | 《管理标签》 					| 视频 	| 视频
 | 《Hello Git Cheat Sheet(小抄)》 | 查看 	|
