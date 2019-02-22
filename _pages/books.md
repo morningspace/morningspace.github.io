@@ -23,7 +23,7 @@ toc_sticky: true
 
 ![集体智慧编程]({{ site.url }}{{ site.baseurl }}/assets/images/books/web2.0.jpg){: .align-center}
 
-> 本书以机器学习与计算统计为主题背景，专门讲述如何挖掘和分析Web上的数据和资源，如何分析用户体验、市场营销、个人品味等诸多信息，并得出有用的结论，通过复杂的算法来从Web网站获取、收集并分析用户的数据和反馈信息，以便创造新的用户价值和商业价值。全书内容翔实，包括协作过滤技术（实现关联产品推荐功能）、集群数据分析（在大规模数据集中发掘相似的数据子集）、搜索引擎核心技术（爬虫、索引、查询引擎、PageRank算法等）、搜索海量信息并进行分析统计得出结论的优化算法、贝叶斯过滤技术（垃圾邮件过滤、文本过滤）、用决策树技术实现预测和决策建模功能、社交网络的信息匹配技术、机器学习和人工智能应用等。
+> AI学习经典畅销书，豆瓣评价9.0分。本书以机器学习与计算统计为主题背景，专门讲述如何挖掘和分析Web上的数据和资源，如何分析用户体验、市场营销、个人品味等诸多信息，并得出有用的结论，通过复杂的算法来从Web网站获取、收集并分析用户的数据和反馈信息，以便创造新的用户价值和商业价值。全书内容翔实，包括协作过滤技术（实现关联产品推荐功能）、集群数据分析（在大规模数据集中发掘相似的数据子集）、搜索引擎核心技术（爬虫、索引、查询引擎、PageRank算法等）、搜索海量信息并进行分析统计得出结论的优化算法、贝叶斯过滤技术（垃圾邮件过滤、文本过滤）、用决策树技术实现预测和决策建模功能、社交网络的信息匹配技术、机器学习和人工智能应用等。
 
 | 原书名：Programming Collective Intelligence: Building Smart Web 2.0 Applications
 | 原作者：Toby Segaran
@@ -37,7 +37,7 @@ toc_sticky: true
 
 ![Enterprise JavaBeans 3.0中文版]({{ site.url }}{{ site.baseurl }}/assets/images/books/ejb.jpg){: .align-center}
 
-> 本书是Richard Monson-Haefel的经典畅销书《Enterprise JavaBeans》的第五版。Richard自《Enterprise JavaBeans（第四版）》出版以后，将手中的接力棒交给了身为JBoss首席架构师的Bill Burke。本书深入浅出的讲解了全新的EJB 3.0，是学习EJB 3.0不可多得的权威读物之一。
+> EJB3.0学习经典书籍，豆瓣评价8.1分。本书是Richard Monson-Haefel的经典畅销书《Enterprise JavaBeans》的第五版。Richard自《Enterprise JavaBeans（第四版）》出版以后，将手中的接力棒交给了身为JBoss首席架构师的Bill Burke。本书深入浅出的讲解了全新的EJB 3.0，是学习EJB 3.0不可多得的权威读物之一。
 
 | 原书名：Enterprise JavaBeans 3.0，5th Edition
 | 原作者：Bill Burke, Richard Monson-Haefel

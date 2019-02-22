@@ -16,7 +16,7 @@ toc_sticky: true
 * 交互模式下分别提供文本形式的图形化界面，和对话框及菜单形式的图形化界面；
 * 同时支持以Standalone方式运行，以及Docker容器内运行
 
-源码请访问[GitHub项目](https://github.com/morningspace/VimRepress)。关于Elastic Shell的开发背景，与Curator的关系等话题，请见[Elastic Shell发布暨晴耕工坊上线](/tech/elash-and-studio/)一文(待发布)。
+源码请访问[GitHub项目](https://github.com/morningspace/elastic-shell)。关于Elastic Shell的开发背景，与Curator的关系等话题，请见 **Elastic Shell发布暨晴耕工坊上线(待发布)** 一文。
 
 ## [VimRepress](https://github.com/morningspace/VimRepress)
 
