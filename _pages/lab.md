@@ -32,9 +32,9 @@ excerpt: "收录公开的教程，培训，及演讲"
 | 《利用分支修复bug》		| [视频](http://v.youku.com/v_show/id_XNDA1NTQ0Mzc2OA==.html "中文版 4'17"") 	| [视频](https://youtu.be/G4M-ofXOqHg "英文版 4'18"")
 | 《利用分支开发特性》		| [视频](http://v.youku.com/v_show/id_XNDA2NzQwMzU0MA==.html "中文版 3'51"") 	| [视频](https://youtu.be/0W1ylLgdwG4 "英文版 3'51"")
 | 《解决多人开发冲突》 	| [视频](http://v.youku.com/v_show/id_XNDA2NzQyNzMyNA==.html "中文版 5'43"") 	| [视频](https://youtu.be/mMSTEy5wbK0 "英文版 5'43"")
-| 《理解rebase》 			| 视频 	| 视频
-| 《管理标签》 					| 视频 	| 视频
-| 《Hello Git Cheat Sheet(小抄)》 | 查看 	|
+| 《理解rebase》 			| [视频]( "中文版 2'38"") 	| [视频]( "英文版 2'38"")
+| 《管理标签》 					| [视频]( "中文版 2'58"") 	| [视频]( "英文版 2'58"")
+| 《Hello Git Cheat Sheet(小抄)》 | [查看](/tech/lab/hello-git-cheat-sheet/) 	|
 
 ## [HAProxy+Keepalived:自己动手玩转负载均衡](https://github.com/morningspace/lab-load-balancing)
 
