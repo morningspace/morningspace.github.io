@@ -15,6 +15,8 @@ excerpt: "收录公开的教程，培训，及演讲"
 * 1篇小抄：记录Git常见用法对应命令
 * 1个GitHub项目：包含Docker镜像源码及说明文档
 
+所有中文视频首发于[晴耕小筑优酷自频道](http://v.youku.com/v_show/id_XMzk2NjQ5NzcyNA==.html?f=51998414)，建议选择“超清”分辨率观看。所有英文视频首发于[MorningSpace Lab Channel on YouTube](https://www.youtube.com/playlist?list=PLVQM6jLkNkfqPTf3ljv9W31aeuv9gi40q)，建议选择“1080p60”分辨率观看。
+
 | 课程 	| 中文资源 	 	| 英文资源
 | ---- 	|:---- 	 	 	 	|:----
 | 《如何使用Hello Git》 | [视频](http://v.youku.com/v_show/id_XMzk2NjQ5NzcyNA==.html "中文版 5'09"")	| [视频](https://youtu.be/14pBZSXHz-Y "英文版 5'09"")
@@ -43,6 +45,8 @@ HAProxy是目前十分流行的负载均衡解决方案，结合Keepalived的使
 * 如何为负载均衡配置SSL
 * 如何实现对后端服务及HAProxy自身的健康检查
 
+所有中文视频首发于[晴耕小筑优酷自频道](http://v.youku.com/v_show/id_XMzkyNTAzODg3Ng==.html?f=51967588)，建议选择“超清”分辨率观看。英文视频首发于[MorningSpace Lab Channel on YouTube](https://youtu.be/jzXzUojGneA)，建议选择“1080p60”分辨率观看。
+
 | 课程 	| 中文资源 	| 英文资源
 | ---- 	|:---- 	 	 	:----
 | 《HAProxy+Keepalived:自己动手玩转负载均衡》 | [幻灯](https://morningspace.github.io/lab-load-balancing/slides) [示例](https://github.com/morningspace/lab-load-balancing/tree/master/conf/samples)
@@ -63,6 +67,8 @@ TypeScript是JavaScript的一个超集。目前已被业界和社区广泛使用
 
 在本教程中，我们将透过现场演示和实际案例来一探究竟。
 
+所有中文视频首发于[晴耕小筑优酷自频道](http://v.youku.com/v_show/id_XMzg3OTg4NTgxNg==.html?f=51919965)，建议选择“超清”分辨率观看。
+
 | 课程 	| 资源
 | ---- 	|:----
 | 《The Path to TypeScript》 | [幻灯](https://morningspace.github.io/lab-typescript) [示例](https://github.com/morningspace/lab-typescript/tree/master/code)
@@ -71,7 +77,7 @@ TypeScript是JavaScript的一个超集。目前已被业界和社区广泛使用
 | 第三集《代码演示》 | [视频](http://v.youku.com/v_show/id_XMzkwMzA1NzQ4MA==.html "30'19"")
 | 第四集《如何迁移到TypeScript》 | [视频](http://v.youku.com/v_show/id_XMzkxMjg2NjI5Mg==.html "18'09"")
 
-注：2018年8月，为在公司内部产品研发团队推广TypeScript的使用而编制的幻灯与示例代码。
+*注：2018年8月，为在公司内部产品研发团队推广TypeScript的使用而编制的幻灯与示例代码。*
 
 ## [深入浅出LoopBack](https://github.com/morningspace/lab-loopback)
 
@@ -83,6 +89,8 @@ TypeScript是JavaScript的一个超集。目前已被业界和社区广泛使用
 
 在最后一讲，我们还邀请到了LoopBack开发团队的核心成员，为大家带来了LoopBack下一个重大版本LoopBack 4的诸多内幕！
 
+所有视频均可在位于优酷视频的[开源技术 * IBM微讲堂](https://v.youku.com/v_show/id_XMzU3MDQwNTI0MA==.html?f=51706516)访问到。
+
 | 日期 	| 课程 	| 资源
 | ---- 	|:---- 	|:----
 | 3/22	| 第一讲《我们的第一个应用：初尝LoopBack的应用开发》 | [幻灯](https://morningspace.github.io/lab-loopback/episode-1.html) [视频](https://v.youku.com/v_show/id_XMzQ5MTU1MDY5Mg==.html) [示例](https://github.com/morningspace/lab-loopback/tree/master/code/taskme-1)
@@ -93,4 +101,4 @@ TypeScript是JavaScript的一个超集。目前已被业界和社区广泛使用
 | 5/02	| 第六讲《内幕劲爆的最终章：探索LoopBack的崭新未来》 | [视频](https://v.youku.com/v_show/id_XMzU4MzYxNzg2NA==.html)
 | 7/21	| 实验课《LoopBack线下训练营》 									| [幻灯](https://morningspace.github.io/lab-loopback/workshop.html)
 
-注：2018年3月至5月间，受邀为“开放技术 * IBM微讲堂”设计LoopBack系列课程，并参与主讲了其中部分课。[本站点](https://github.com/morningspace/lab-loopback)所有资源是为配合该课程而专门设计的，由[晴耕小筑#晴耕实验室](https://morningspace.github.io/lab)出品。
+*注：2018年3月至5月间，受邀为“开放技术 * IBM微讲堂”设计LoopBack系列课程，并参与主讲了其中部分课。[本站点](https://github.com/morningspace/lab-loopback)所有资源是为配合该课程而专门设计的，由[晴耕小筑#晴耕实验室](https://morningspace.github.io/lab)出品。*
