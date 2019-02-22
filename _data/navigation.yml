@@ -2,5 +2,11 @@
 main:
   - title: "文章"
     url: "/"
+  - title: "书籍"
+    url: "/books/"
   - title: "实验室"
     url: "/lab/"
+  - title: "代码"
+    url: "/code/"
+  - title: "照片"
+    url: "/photos/"
