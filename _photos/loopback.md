@@ -12,4 +12,4 @@ gallery:
     title: "授课期间"
 ---
 
-{% include gallery caption="2018年7月，作为“开放技术 * IBM微讲堂”LoopBack系列课程的收官之课，与同事一起组织了“LoopBack线下训练营”活动，为学员讲授LoopBack动手实践及云部署。" %}
+{% include gallery caption="2018年7月21日，作为“开放技术 * IBM微讲堂”LoopBack系列课程的收官之课，与同事一起组织了“LoopBack线下训练营”活动，为学员讲授LoopBack动手实践，以及基于API Connect的云部署。" %}
