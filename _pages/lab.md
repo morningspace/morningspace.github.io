@@ -34,7 +34,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 | 《解决多人开发冲突》 	| [视频](http://v.youku.com/v_show/id_XNDA2NzQyNzMyNA==.html "中文版 5'43"") 	| [视频](https://youtu.be/mMSTEy5wbK0 "英文版 5'43"")
 | 《理解rebase》 			| [视频](http://v.youku.com/v_show/id_XNDA3NTQ0OTk3Mg==.html "中文版 2'38"") 	| [视频](https://youtu.be/XraY8PGivxg "英文版 2'38"")
 | 《管理标签》 					| [视频](http://v.youku.com/v_show/id_XNDA3NTQ1MzYzNg==.html "中文版 2'58"") 	| [视频](https://youtu.be/DI1_FastrNY "英文版 2'58"")
-| 《Hello Git Cheat Sheet(小抄)》 | 查看 	|
+| 《Hello Git Cheat Sheet(小抄)》 | [查看](/tech/lab/hello-git-cheat-sheet/) 	|
 
 ## [HAProxy+Keepalived:自己动手玩转负载均衡](https://github.com/morningspace/lab-load-balancing)
 
