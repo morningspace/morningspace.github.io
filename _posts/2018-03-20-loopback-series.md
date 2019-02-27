@@ -1,8 +1,8 @@
 ---
 title: 我为什么要来IBM微讲堂讲LoopBack？
 excerpt: "为IBM微讲堂的LoopBack系列课程作推广序"
-categories: [tech]
-tags: [loopback, training]
+categories: [tech, lab]
+tags: [loopback, lab]
 toc: true
 toc_sticky: true
 ---
