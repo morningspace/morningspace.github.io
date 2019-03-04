@@ -1,6 +1,8 @@
 ---
 permalink: /studio/
 title: "晴耕工坊"
+toc: true
+toc_sticky: true
 excerpt: "收录公开的源码小品"
 ---
 
@@ -14,7 +16,15 @@ excerpt: "收录公开的源码小品"
 * 交互模式下提供文本形态的图形化界面及菜单操作；
 * 同时支持以Standalone方式运行，以及Docker容器内运行
 
-注：关于Elastic Shell的开发背景，与Curator的关系等话题，请见[Elastic Shell发布暨晴耕工坊上线](/tech/elash-and-studio/)一文
+| 资源 	| 说明
+| ---- 	|:----
+| 源码 | [GitHub项目](https://github.com/morningspace/elastic-shell)
+| 开发背景介绍及其与Curator的关系等 | [Elastic Shell发布暨晴耕工坊上线](/tech/elash-and-studio/)
+| Elastic Shell 101: Getting Started | [文章](/tech/elash101-1/) [视频1](/ "优酷") [视频2](/ "YouTube")
+| Elastic Shell 101: Working with Index | [文章](/tech/elash101-2/) [视频1](/ "优酷") [视频2](/ "YouTube")
+| Elastic Shell 101: Manage Snapshot Interactively | [文章](/tech/elash101-3/) [视频1](/ "优酷") [视频2](/ "YouTube")
+| Elastic Shell 101: Reindex Using Dialog | [文章](/tech/elash101-4/) [视频1](/ "优酷") [视频2](/ "YouTube")
+| Elastic Shell 101: Advanced Features | [文章](/tech/elash101-5/) [视频1](/ "优酷") [视频2](/ "YouTube")
 
 ## [VimRepress](https://github.com/morningspace/VimRepress)
 
