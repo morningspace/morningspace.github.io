@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 ---
 
-经过一段时间的筹划，作为[“晴耕小筑”](/)的一档新栏目[“晴耕工坊”](/studio)终于和诸位见面了！该栏目汇集了“晴耕小筑”以往公开的原创小品。比如，近期发布的[Elastic Shell](https://github.com/morningspace/elastic-shell)，便是由“晴耕工坊”隆重推出的一个开源项目。其作用是提供一组Shell脚本，用来管理Elasticsearch，稍后还将详细介绍。除此以外，还有部分笔者早年的开源小品，也一并收录于此。所有开源项目，均可在“晴耕小筑”的[GitHub网站](https://github.com/morningspace)找到。下面我们就一起来近距离了解一下Elastic Shell吧:-)
+经过一段时间的筹划，作为[“晴耕小筑”](/)的一档新栏目[“晴耕工坊”](/studio)终于和诸位见面了！该栏目汇集了“晴耕小筑”以往公开的原创小品。比如，近期发布的[Elastic Shell](https://github.com/morningspace/elastic-shell)，便是由“晴耕工坊”隆重推出的一个开源项目。其作用是提供一组Shell脚本，用来管理Elasticsearch，稍后还将详细介绍。除此以外，还有部分笔者早年的开源小品，也一并收录于此。未来，还会有更多开源项目通过“晴耕工坊”对外发布。所有开源项目，均可在“晴耕小筑”的[GitHub网站](https://github.com/morningspace)找到。下面我们就一起来近距离了解一下Elastic Shell吧:-)
 
 ## 什么是Elastic Shell
 
@@ -33,7 +33,7 @@ Elastic Shell是一套完全用Bash Shell编写的，用于管理Elasticsearch�
 
 其一，利用Shell语言开发脚本，实现操作系统下的常见管理任务是以Linux为代表的操作系统十分常见的做法。Bash Shell是Shell脚本语言中最为常用的典型代表之一。利用它，再结合各种外部可执行程序，可以实现各种丰富而强大的功能。
 
-其二，Elastic Shell的编写过程也是笔者对Shell编程的学习与实作过程。虽然很久以前有过DOS下批处理文件的编写经验，但那都是陈年往事，早已时过境迁。一直以来，对Linux下Shell脚本的那些稀奇古怪的书写方式不明觉厉。这次终于逮住机会深入了解了一番。在开发Elastic Shell期间，通过密集的网络搜索，自觉对Shell编程的理解突飞猛进，实作方面也精进了不少。诸位如果有兴趣阅读Elastic Shell的源码就会看到，其中使用了很多Shell编程中有意思的技巧，比如：
+其二，Elastic Shell的编写过程也是笔者对Shell编程的学习与实作过程。很久以前就曾在DOS下写过批处理文件，但那都是陈年往事。一直以来，对Linux下Shell脚本的那些稀奇古怪的书写方式不明觉厉，这次逮着机会有了深入的了解。在开发Elastic Shell期间，通过密集的网络搜索，自觉对Shell编程的理解突飞猛进，实作方面也精进了不少。诸位如果有兴趣阅读Elastic Shell的源码就会看到，其中使用了很多Shell编程中有意思的技巧，比如：
 
 * 大量管道（pipe）的运用让代码简化和灵活了不少
 * 各种字符串处理与比对方法，体现了Shell强大和丰富的处理能力
@@ -56,7 +56,7 @@ Elastic Shell是一套完全用Bash Shell编写的，用于管理Elasticsearch�
 
 有一个问题熟悉Elasticsearch及ELK的同学一定会问：Elastic Shell和[Curator](https://github.com/elastic/curator)到底有什么区别？Curator是ELK社区广泛使用的Elasticsearch索引管理工具，它是由Python编写的。希望进一步了解Curator的同学可以查阅其[官方文档](https://www.elastic.co/guide/en/elasticsearch/client/curator/current/about.html)。
 
-Elastic Shell在个别功能上与Curator有小部分重叠，主要是针对index和snapshot的管理方面。这是Elastic Shell作为一个工具集，在完备性方面所必须提供的功能。Elastic Shell着眼更多的，是Curator因其定位而不具备的某些功能，比如对reindex和集群升级提供的辅助自动化。
+Elastic Shell在个别功能上与Curator有小部分重叠，主要是针对index和snapshot的管理方面。这是Elastic Shell作为一个工具集，在完备性方面所必须提供的功能。Elastic Shell着眼更多的，是Curator因其自身定位不同而不具备的某些功能，比如对reindex和集群升级提供的辅助自动化。
 
 Elastic Shell无意替代Curator，而是Curator的一个轻量级补充，并且它是纯Shell脚本编写而成的，无需Python语言环境，从而给使用者多了一种选择。
 
