@@ -11,7 +11,7 @@ toc_sticky: true
 
 ## 什么是Elastic Shell
 
-![](/assets/images/lab/elash.png)
+![](/assets/images/studio/elash.png)
 
 Elastic Shell是一套完全用Bash Shell编写的，用于管理Elasticsearch的工具脚本。目前，它提供了针对index和snapshot的基本管理，并提供了针对reindex和Elasticsearch集群升级的辅助自动化。
 
