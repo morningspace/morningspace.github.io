@@ -8,7 +8,7 @@ excerpt: "收录公开的源码小品"
 
 ## [Elastic Shell](https://github.com/morningspace/elastic-shell)
 
-* 一套完全由Bash Shell编写的，用于管理Elasticsearch的工具脚本；
+* 一套完全由Bash Shell编写的，用于管理Elasticsearch搜索引擎的工具脚本；
 * 提供针对index和snapshot的基本管理；
 * 提供针对reindex和Elasticsearch集群升级的辅助自动化；
 * 提供高阶辅助功能，比如：logging，dry run，auto completion等；
@@ -19,7 +19,7 @@ excerpt: "收录公开的源码小品"
 | 资源 	| 链接
 | ---- 	|:----
 | 源码 | [GitHub项目](https://github.com/morningspace/elastic-shell)
-| Elastic Shell发布暨晴耕工坊上线 | [文章](/tech/elash-and-studio/)
+| 开源项目Elastic Shell发布暨晴耕工坊栏目上线 | [文章](/tech/elash-and-studio/)
 
 ## [VimRepress](https://github.com/morningspace/VimRepress)
 

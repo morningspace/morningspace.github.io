@@ -1,19 +1,19 @@
 ---
-title: Elastic Shell发布暨晴耕工坊上线
-excerpt: 新栏目“晴耕工坊”上线，开源项目Elastic Shell首发，纯脚本工具轻松管理Elasticsearch
+title: 开源项目Elastic Shell发布暨晴耕工坊栏目上线
+excerpt: 新栏目“晴耕工坊”上线，开源项目Elastic Shell首发，纯脚本工具轻松管理Elasticsearch搜索引擎
 categories: [tech]
 tags: [elasticsearch, shell, news, studio]
 toc: true
 toc_sticky: true
 ---
 
-经过一段时间的筹划，作为[“晴耕小筑”](/)的一档新栏目[“晴耕工坊”](/studio)终于和诸位见面了！该栏目汇集了“晴耕小筑”以往公开的原创小品。比如，近期发布的[Elastic Shell](https://github.com/morningspace/elastic-shell)，便是由“晴耕工坊”隆重推出的一个开源项目。其作用是提供一组Shell脚本，用来管理Elasticsearch，稍后还将详细介绍。除此以外，还有部分笔者早年的开源小品，也一并收录于此。未来，还会有更多开源项目通过“晴耕工坊”对外发布。所有开源项目，均可在“晴耕小筑”的[GitHub网站](https://github.com/morningspace)找到。下面我们就一起来近距离了解一下Elastic Shell吧:-)
+经过一段时间的筹划，作为[“晴耕小筑”](/)的一档新栏目[“晴耕工坊”](/studio)终于和诸位见面了！该栏目汇集了“晴耕小筑”以往公开的原创小品。比如，近期发布的[Elastic Shell](https://github.com/morningspace/elastic-shell)，便是由“晴耕工坊”隆重推出的一个开源项目。其作用是提供一组Shell脚本，用来管理Elasticsearch搜索引擎，稍后还将详细介绍。除此以外，还有部分笔者早年的开源小品，也一并收录于此。未来，还会有更多开源项目通过“晴耕工坊”对外发布。所有开源项目，均可在“晴耕小筑”的[GitHub网站](https://github.com/morningspace)找到。下面我们就一起来近距离了解一下Elastic Shell吧:-)
 
 ## 什么是Elastic Shell
 
 ![](/assets/images/studio/elash.png)
 
-Elastic Shell是一套完全用Bash Shell编写的，用于管理Elasticsearch的工具脚本。目前，它提供了针对index和snapshot的基本管理，并提供了针对reindex和Elasticsearch集群升级的辅助自动化。
+Elastic Shell是一套完全用Bash Shell编写的，用于管理Elasticsearch搜索引擎的工具脚本。目前，它提供了针对index和snapshot的基本管理，并提供了针对reindex和Elasticsearch集群升级的辅助自动化。
 
 本质上，Elastic Shell是一个Elasticsearch的客户端。所有功能都是通过curl发起针对Elasticsearch的REST API调用来完成的。
 
