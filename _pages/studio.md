@@ -20,6 +20,11 @@ excerpt: "收录公开的源码小品"
 | ---- 	|:----
 | 源码 | [GitHub项目](https://github.com/morningspace/elastic-shell)
 | 开源项目Elastic Shell发布暨晴耕工坊栏目上线 | [文章](/tech/elash-and-studio/)
+| Elastic Shell 101: Getting Started | 文章 [视频1](https://v.youku.com/v_show/id_XNDEwNjI0OTk2OA==.html?f=52133377 "优酷") [视频2](https://youtu.be/9r_RNz89SVw "YouTube")
+| Elastic Shell 101: Working with Index | 文章 视频1 视频2
+| Elastic Shell 101: Manage Snapshot Interactively | 文章 视频1 视频2
+| Elastic Shell 101: Reindex Using Dialog | 文章 视频1 视频2
+| Elastic Shell 101: Advanced Features | 文章 视频1 视频2
 
 ## [VimRepress](https://github.com/morningspace/VimRepress)
 
