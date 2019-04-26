@@ -24,7 +24,7 @@ excerpt: "收录公开的源码小品"
 | Elastic Shell 101: Working with Index | [文章](/tech/elash101-2/) [视频1](https://v.youku.com/v_show/id_XNDExNjc0OTU4NA==.html?f=52133377 "优酷") [视频2](https://youtu.be/nWX8miFbRPQ "YouTube")
 | Elastic Shell 101: Manage Snapshot Interactively | [文章](/tech/elash101-3/) [视频1](https://v.youku.com/v_show/id_XNDEyODY2NTA3Mg==.html?f=52133377 "优酷") [视频2](https://youtu.be/_KwIkjoRQS8 "YouTube")
 | Elastic Shell 101: Reindex Using Dialog | [文章](/tech/elash101-4/) [视频1](https://v.youku.com/v_show/id_XNDEzNTMwMTU5Ng==.html?f=52133377 "优酷") [视频2](https://youtu.be/ywgxY1h0PsA "YouTube")
-| Elastic Shell 101: Advanced Features | 文章 视频1 视频2
+| Elastic Shell 101: Advanced Features | [文章](/tech/elash101-5/) [视频1](https://v.youku.com/v_show/id_XNDE1NTQ1NjIwNA==.html?f=52133377 "优酷") [视频2](https://youtu.be/wc4CnChWxPE "YouTube")
 
 ## [VimRepress](https://github.com/morningspace/VimRepress)
 
