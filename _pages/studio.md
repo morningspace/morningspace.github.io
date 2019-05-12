@@ -18,7 +18,7 @@ excerpt: "收录公开的源码小品"
 | ---- 	|:----
 | 源码 | [GitHub项目](https://github.com/morningspace/docker-registry-cli)
 | Docker Registry CLI轻松管理Docker注册表(上) | [文章](/tech/use-docker-reg-cli-1/)
-| Docker Registry CLI轻松管理Docker注册表(下) | 文章
+| Docker Registry CLI轻松管理Docker注册表(下) | [文章](/tech/use-docker-reg-cli-2/)
 | Docker Registry CLI Tutorial - Basic Use    | 文章 视频1 视频2
 | Docker Registry CLI Tutorial - More Use | 文章 视频1 视频2
 
