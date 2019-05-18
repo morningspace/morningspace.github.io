@@ -19,7 +19,7 @@ excerpt: "收录公开的源码小品"
 | 源码 | [GitHub项目](https://github.com/morningspace/docker-registry-cli)
 | Docker Registry CLI轻松管理Docker注册表(上) | [文章](/tech/use-docker-reg-cli-1/)
 | Docker Registry CLI轻松管理Docker注册表(下) | [文章](/tech/use-docker-reg-cli-2/)
-| Docker Registry CLI Tutorial - Basic Use    | 文章 视频1 视频2
+| Docker Registry CLI Tutorial - Basic Use    | 文章 [视频1](https://v.youku.com/v_show/id_XNDE3ODk0NTk4MA==.html?f=52175776) [视频2](https://youtu.be/j_Bd4G5aGXA "YouTube Channel")
 | Docker Registry CLI Tutorial - More Use | 文章 视频1 视频2
 
 ## [Elastic Shell](https://github.com/morningspace/elastic-shell)
