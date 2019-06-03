@@ -2,7 +2,7 @@
 title: Docker Registry CLI轻松管理Docker注册表(上)
 excerpt: "晴耕工坊最新开源项目发布，介绍Docker Registry CLI基本用法"
 categories: [tech]
-tags: [docker, shell, studio]
+tags: [docker, shell, studio, studio_reg_cli]
 toc: true
 toc_sticky: true
 ---

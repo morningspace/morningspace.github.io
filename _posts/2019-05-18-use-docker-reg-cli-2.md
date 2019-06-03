@@ -2,7 +2,7 @@
 title: Docker Registry CLI轻松管理Docker注册表(下)
 excerpt: "更多Docker Registry CLI的灵活用法，如：批量复制与删除等"
 categories: [tech]
-tags: [docker, shell, studio]
+tags: [docker, shell, studio, studio_reg_cli]
 toc: true
 toc_sticky: true
 ---
