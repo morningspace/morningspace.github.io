@@ -1,7 +1,7 @@
 ---
 title: Docker Registry CLI Tutorial - Basic Use
 categories: [tech]
-tags: [docker, shell, studio, studio_reg_cli]
+tags: [docker, shell, studio, studio-reg-cli]
 toc: true
 toc_sticky: true
 ---
