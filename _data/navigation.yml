@@ -8,5 +8,5 @@ main:
     url: "/studio/"
   - title: "书斋"
     url: "/books/"
-  - title: "照片"
-    url: "/photos/"
+  - title: "影廊"
+    url: "/gallery/"

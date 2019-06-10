@@ -1,13 +1,13 @@
 ---
-title: "Martin Fowler在线访谈活动"
+title: "Martin Fowler在线访谈"
 excerpt: ""
 gallery:
-  - url: "photos/martin/mf_20060602_1.jpg"
-    image_path: "photos/martin/mf_20060602_1.jpg"
+  - url: "gallery/martin/mf_20060602_1.jpg"
+    image_path: "gallery/martin/mf_20060602_1.jpg"
     alt: "聊天室现场：Martin Fowler（中），Sidney Pinney（右）"
     title: "聊天室现场：Martin Fowler（中），Sidney Pinney（右）"
-  - url: "photos/martin/mf_20060602_2.jpg"
-    image_path: "photos/martin/mf_20060602_2.jpg"
+  - url: "gallery/martin/mf_20060602_2.jpg"
+    image_path: "gallery/martin/mf_20060602_2.jpg"
     alt: "全体合影：熊节（左一），才子英（左二），郭旭（右二），Sidney（右一）"
     title: "全体合影：熊节（左一），才子英（左二），郭旭（右二），Sidney（右一）"
 ---

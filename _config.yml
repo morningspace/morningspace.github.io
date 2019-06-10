@@ -244,7 +244,7 @@ compress_html:
     envs: development
 
 collections:
-  photos:
+  gallery:
     output: true
     permalink: /:collection/:path/
 
@@ -276,10 +276,10 @@ defaults:
         overlay_image: "/assets/images/banner.jpg"
       layout: single
       author_profile: true
-  # _photos
+  # _gallery
   - scope:
       path: ""
-      type: photos
+      type: gallery
     values:
       header:
         overlay_color: "#333"

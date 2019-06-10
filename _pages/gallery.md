@@ -1,6 +1,6 @@
 ---
-permalink: /photos/
-title: "晴耕掠影"
+permalink: /gallery/
+title: "晴耕影廊"
 toc: true
 toc_sticky: true
 excerpt: "收录以往参与活动的光影留念"
@@ -38,7 +38,7 @@ excerpt: "收录以往参与活动的光影留念"
 
 | 2006年10月29日，BJUG的一次线下活动，活动内容是寓教于乐、生动有趣的Lego积木游戏，与会者籍此身临其境的体验了一番XP实践。
 
-## [2006 - Martin Fowler在线访谈活动](martin)
+## [2006 - Martin Fowler在线访谈](martin)
 
 | 恰逢“敏捷中国日”活动进行之际，于2006年6月2日应邀参加赛迪网对Martin Fowler先生的在线访谈节目。
 

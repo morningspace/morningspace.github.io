@@ -2,12 +2,12 @@
 title: "LoopBack线下训练营"
 excerpt: ""
 gallery:
-  - url: "photos/loopback/lb_201807_1.jpg"
-    image_path: "photos/loopback/lb_201807_1.jpg"
+  - url: "gallery/loopback/lb_201807_1.jpg"
+    image_path: "gallery/loopback/lb_201807_1.jpg"
     alt: "活动现场"
     title: "活动现场"
-  - url: "photos/loopback/lb_201807_2.jpg"
-    image_path: "photos/loopback/lb_201807_2.jpg"
+  - url: "gallery/loopback/lb_201807_2.jpg"
+    image_path: "gallery/loopback/lb_201807_2.jpg"
     alt: "授课期间"
     title: "授课期间"
 ---
