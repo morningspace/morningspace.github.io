@@ -6,6 +6,21 @@ toc_sticky: true
 excerpt: "收录公开的教程，培训，及演讲"
 ---
 
+## [晴耕 · 白话](/lab/#晴耕 · 白话)
+
+![](/assets/images/lab/smiling-cute-baby.png){: .align-right}
+
+> 这里，没有难懂的知识；只有最浅显的文字，最直观的图示，最鲜活的例子；
+> 晴耕 · 白话，让知识更简单！
+
+### [Git系列](/lab/#Git系列)
+
+![](/assets/images/lab/git/inspection-sm@2x.png) Git解密：探索Git背后的秘密	
+
+| [认识Git对象](/tech/inside-git-1) | 认识Git对象及其存储格式，学会如何手工创建blob对象
+| Tree对象和Commit对象 | 认识tree和commit对象，学会如何手工创建并理解其价值
+| 认识Git引用 | 认识Git引用，熟悉各种引用类型，理解HEAD文件的作用
+
 ## [Hello Git](https://github.com/morningspace/lab-hello-git)
 
 短视频 + Docker镜像 + 小抄 + GitHub项目，全方位教你如何用好Git！
