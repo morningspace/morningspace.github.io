@@ -1,5 +1,5 @@
 ---
-title: “晴耕 · 白话”栏目上线公告
+title: “晴耕 · 白话”栏目上线预告
 excerpt: “晴耕实验室”即将隆重推出“晴耕 · 白话”系列栏目！
 categories: [tech]
 tags: [lab, dummies, news]
