@@ -18,7 +18,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 ![](/assets/images/lab/git/inspection-sm@2x.png) Git解密：探索Git背后的秘密	
 
 | [认识Git对象](/tech/inside-git-1) | 认识Git对象及其存储格式，学会如何手工创建blob对象
-| Tree对象和Commit对象 | 认识tree和commit对象，学会如何手工创建并理解其价值
+| [Tree对象和Commit对象](/tech/inside-git-2) | 认识tree和commit对象，学会如何手工创建并理解其价值
 | 认识Git引用 | 认识Git引用，熟悉各种引用类型，理解HEAD文件的作用
 
 ## [Hello Git](https://github.com/morningspace/lab-hello-git)
