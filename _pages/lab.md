@@ -21,6 +21,17 @@ excerpt: "收录公开的教程，培训，及演讲"
 | [Tree对象和Commit对象](/tech/inside-git-2) | 认识tree和commit对象，学会如何手工创建并理解其价值
 | [认识Git引用](/tech/inside-git-3) | 认识Git引用，熟悉各种引用类型，理解HEAD文件的作用
 
+![](/assets/images/lab/git/patching-sm@2x.png) Git合并那些事儿：小小合并门道大
+
+| [认识几种Merge方法](/tech/git-merge-stories-1)	| 介绍什么是快进式合并，三方合并，压缩合并
+| Merge策略（上）	| 认识Criss-Cross现象，以及Recursive，Ours等策略
+| Merge策略（下）	| 认识Octopus和Subtree策略
+| 当冲突发生的时候	| 讲述冲突发生时，那些你也许不曾知道的事儿
+| 撤销合并				| 讲述冲各种撤销合并的方法
+| 神奇的Rebase		| 认识Rebase及其用法，以及什么时候用到它
+| 交互式Rebase		| 介绍更多有关Rebase的玩法
+| Rebase的烦恼		| 通过一个例子来演示Rebase使用不当带来的麻烦
+
 ## [Hello Git](https://github.com/morningspace/lab-hello-git)
 
 短视频 + Docker镜像 + 小抄 + GitHub项目，全方位教你如何用好Git！
