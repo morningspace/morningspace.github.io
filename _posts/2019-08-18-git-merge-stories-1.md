@@ -1,11 +1,13 @@
 ---
-title: Git合并的那些事儿——认识几种Merge方法
+title: Git合并那些事——认识几种Merge方法
 excerpt: 介绍什么是Fast-Forward Merge，Three-Way Merge，Squash Merge
 categories: [tech]
 tags: [lab, dummies, dummies_git, git]
 toc: true
 toc_sticky: true
 ---
+
+> 多人开发中的合并冲突是我们使用Git时常常会遇到的情况，小小合并门道大，讲述合并的那些事儿，晴耕 · 白话之“Git合并那些事”系列​持续连载中……
 
 注：
 本文采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
