@@ -24,7 +24,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 ![](/assets/images/lab/git/patching-sm@2x.png) Git合并那些事儿：小小合并门道大
 
 | [认识几种Merge方法](/tech/git-merge-stories-1)	| 介绍什么是快进式合并，三方合并，压缩合并
-| Merge策略（上）	| 认识Criss-Cross现象，以及Recursive，Ours等策略
+| [Merge策略（上）](/tech/git-merge-stories-2)		| 认识Criss-Cross现象，以及Recursive，Ours等策略
 | Merge策略（下）	| 认识Octopus和Subtree策略
 | 当冲突发生的时候	| 讲述冲突发生时，那些你也许不曾知道的事儿
 | 撤销合并				| 讲述冲各种撤销合并的方法
