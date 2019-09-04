@@ -13,6 +13,13 @@ excerpt: "收录公开的教程，培训，及演讲"
 > 这里，没有难懂的知识；只有最浅显的文字，最直观的图示，最鲜活的例子；
 > 晴耕 · 白话，让知识更简单！
 
+### [Kubernetes系列](/lab/#Kubernetes系列)
+
+⎈ 环境篇：
+
+| [Launch multi-node k8s cluster locally in 1min](/tech/k8s-run), [优酷视频](https://v.youku.com/v_show/id_XNDI2Mzk1NDcyMA==.html?f=52221532 "优酷"), [YouTube视频](https://www.youtube.com/watch?v=0uVdF3Inv48&list=PLVQM6jLkNkfqHgd0aX7TnjioOiQrqsXIa "YouTube")	| 本地快速搭建指定版本的多节点k8s集群
+| [All-in-One K8S Playground中文使用指南](/tech/all-in-one-k8s-playground)	| 利用开源项目[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)一键搞定k8s部署
+
 ### [Git系列](/lab/#Git系列)
 
 ![](/assets/images/lab/git/inspection-sm@2x.png) Git解密：探索Git背后的秘密	
