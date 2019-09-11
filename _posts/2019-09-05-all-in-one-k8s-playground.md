@@ -27,6 +27,8 @@ toc_sticky: true
 $ git https://github.com/morningspace/lab-k8s-playground.git
 ```
 
+### 在Vagrant Box里启动
+
 启动Playground非常简单，如果你的机器安装了Vagrant Box，那么只要一条命令就行了：
 ```shell
 $ vagrant up
@@ -38,6 +40,8 @@ $ vagrant up
 * 自动安装docker，docker compose，kubectrl，helm，以及Kubernetes的一些日常使用的命令行工具；
 * 自动搭建Private Registry，用于保存集群部署用到的所有Docker镜像。利用Private Registry可以免去通过网络访问远程Public Registry的需要，从而极大地提高了部署的速度。并且，因为全部镜像都在本地，所以还可以实现离线安装，非常适合单机的demo环境。
 * 最后，它还会为我们部署好一个默认由三个节点构成的Kubernetes集群，即：一个master节点加两个worker节点。这个节点数目是可以定制的，不仅如此，就连Kubernetes所用的版本也是可以指定的。关于怎么定制Playground，后面还会讲解。
+
+### 在宿主机上启动
 
 除了Vagrant Box，Playground也支持直接在宿主机上启动。只要在项目的根目录下执行如下命令，对环境进行初始化：
 ```shell
@@ -65,6 +69,22 @@ $ launch default
 ```
 
 > 也许你已经注意到，这里我们用的是`launch`，而不是带着一串路径的`launch.sh`。当执行完`init`命令对Playground进行初始化，并确保`.bashrc`被重新加载以后，我们就可以直接使用`launch`命令了。你可以在任意目录下执行`launch`，而不必非得在项目的根目录下。
+
+### Vagrant Box还是宿主机？
+
+如果是跑在笔记本或者本地机器上，并且你希望机器始终保持干净，那么使用Vagrant Box应该是一个不错的选择。否则地话，不妨直接在宿主机上安装，因为这样可以省去在box里安装操作系统的时间，所以启动速度会更快。
+
+如果是跑在虚机里，那也可以不用Vagrant Box，因为没有必要让一个虚机（即box）跑在另一个虚机里。
+
+### 我该选择哪种操作系统？
+
+Playground支持多种操作系统，包括：
+* Ubuntu
+* CentOS
+* RHEL
+* MacOS
+
+如果你选择Vagrant Box启动Playground，尽管Vagrantfile里用的是Ubuntu，但你也可以改成其他的操作系统。
 
 ## 我该怎么访问呢？
 
