@@ -33,7 +33,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 | [认识几种Merge方法](/tech/git-merge-stories-1)	| 介绍什么是快进式合并，三方合并，压缩合并
 | [Merge策略（上）](/tech/git-merge-stories-2)		| 认识Criss-Cross现象，以及Recursive，Ours等策略
 | [Merge策略（下）](/tech/git-merge-stories-3)		| 认识Octopus和Subtree策略
-| 当冲突发生的时候	| 讲述冲突发生时，那些你也许不曾知道的事儿
+| [当冲突发生的时候](/tech/git-merge-stories-4)		| 讲述冲突发生时，那些你也许不曾知道的事儿
 | 撤销合并				| 讲述冲各种撤销合并的方法
 | 神奇的Rebase		| 认识Rebase及其用法，以及什么时候用到它
 | 交互式Rebase		| 介绍更多有关Rebase的玩法
