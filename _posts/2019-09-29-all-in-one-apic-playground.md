@@ -18,7 +18,7 @@ toc_sticky: true
 
 [IBM API Connect(APIC)](https://developer.ibm.com/apiconnect)是IBM开发的一款API生命周期管理软件，它的核心部分是基于Node.js开源框架[LoopBack](https://loopback.io/)构建而成的。如果你对LoopBack感兴趣，欢迎访问我的[深入浅出LoopBack](https://morningspace.github.io/lab/#%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAloopback)系列教程。
 
-标准的APIC安装，对于包括CPU，内存，存储在内的系统资源要求都比较高，通常需要多个虚拟机或物理机才能完成部署，其安装过程也比较复杂，详情可见它的[安装文档](https://www.ibm.com/support/knowledgecenter/SSMNED_2018/mapfiles/getting_started.html)。
+标准的APIC安装，对于包括CPU，内存，存储在内的系统资源要求都比较高，通常需要多个虚拟机或物理机才能完成部署；其安装过程也比较复杂，通常需要几个小时甚至几天的时间才能完成安装，详情可见它的[安装文档](https://www.ibm.com/support/knowledgecenter/SSMNED_2018/mapfiles/getting_started.html)。
 
 本文将告诉你，利用[All-in-One Kubernetes Playground](https://github.com/morningspace/lab-k8s-playground/)，只要五个步骤，就可以在单机环境下，把APIC部署到一个由多节点构成的标准[Kubernetes](https://kubernetes.io/)集群里。整个过程是完全自动化进行的，并且可以无限次重复！
 
