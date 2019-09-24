@@ -1,5 +1,5 @@
 ---
-title: Git合并的那些事儿——当冲突发生的时候
+title: Git合并那些事——当冲突发生的时候
 excerpt: 讲述冲突发生时，那些你也许不曾知道的事儿
 categories: [tech]
 tags: [lab, dummies, dummies_git, git]
