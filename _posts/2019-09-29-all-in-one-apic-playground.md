@@ -24,9 +24,9 @@ toc_sticky: true
 
 ## 动图演示
 
-先上一段动图演示：
+先上一段动图演示（点击图片可放大观看哦）：
 
-![](https://morningspace.github.io/lab-k8s-playground/docs/demo-apic.gif)
+[![](https://morningspace.github.io/lab-k8s-playground/docs/demo-apic.gif)](https://morningspace.github.io/lab-k8s-playground/docs/demo-apic.gif)
 
 然后再来看一下具体的步骤。
 

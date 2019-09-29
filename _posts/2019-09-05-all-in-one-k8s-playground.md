@@ -341,7 +341,7 @@ $ NUM_NODES=3 IS_IN_CHINA=1 launch registry kubernetes helm
 
 ### 扩展Launch Utility
 
-最后，`Launch Utility`本身也是支持扩展的。如果我们希望用`launch`命令部署lab-k8s-playground项目目前还不支持的应用，包括我们自己的应用，那就定义一个你自己的target吧！自定义target非常简单，除了需要会一点Shell编程的技能以外，剩下的就是快速阅读一下“[Target Utility Usage Guide](https://github.com/morningspace/lab-k8s-playground/blob/master/docs/Target-Utility-Usage-Guide.md)”这篇文档，或者学习一下 [install/targets/sample.sh](https://github.com/morningspace/lab-k8s-playground/blob/master/install/targets/sample.sh) 这个参考实现，然后你就可以动手改造`Launch Utility`啦！
+最后，`Launch Utility`本身也是支持扩展的。如果我们希望用`launch`命令部署lab-k8s-playground项目目前还不支持的应用，包括我们自己的应用，那就定义一个你自己的target吧！自定义target非常简单，除了需要会一点Shell编程的技能以外，剩下的就是快速阅读一下“[Launch Utility Usage Guide](https://morningspace.github.io/lab-k8s-playground/docs/Launch-Utility-Usage-Guide.html)”这篇文档，或者学习一下 [install/targets/sample.sh](https://github.com/morningspace/lab-k8s-playground/blob/master/install/targets/sample.sh) 这个参考实现，然后你就可以动手改造`Launch Utility`啦！
 
 ## 还有哪些参考资料我能访问？
 
