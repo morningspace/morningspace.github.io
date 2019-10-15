@@ -1,8 +1,8 @@
 ---
-title: 把API Connect关进All-in-One K8S Playground里
-excerpt: 把API Connect这个“庞然大物”关进All-in-One K8S Playground里需要几步呢？
+title: 喜迎OpenShift入驻All-in-One K8S Playground
+excerpt: All-in-One K8S Playground v1.2发布，新增OpenShift支持！
 categories: [tech]
-tags: [lab, dummies, dummies_kubernetes, kubernetes, apic]
+tags: [lab, dummies, dummies_kubernetes, kubernetes, openshift]
 toc: true
 toc_sticky: true
 ---
@@ -10,135 +10,151 @@ toc_sticky: true
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-> 众所周知，把大象关进冰箱里统共需要三步。那么把API Connect这个“庞然大物”关进All-in-One Kubernetes Playground里，到底需要几步呢？本文是开源项目[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)的高级应用案例。如果您喜欢这个项目，欢迎点击下面的按钮，关注，加星，以及贡献代码^_^
+> 开源项目[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground) v1.2发布啦！除了支持标准Kubernetes集群，OpenShift现在也可以跑在All-in-One K8S Playground里啦！如果您喜欢这个项目，欢迎点击下面的按钮，关注，加星，以及贡献代码^_^
 
 <a class="github-button" href="https://github.com/morningspace/lab-k8s-playground/subscription" data-icon="octicon-eye" data-size="large" aria-label="Watch morningspace/lab-k8s-playground on GitHub">Watch</a> <a class="github-button" href="https://github.com/morningspace/lab-k8s-playground" data-icon="octicon-star" data-size="large" aria-label="Star morningspace/lab-k8s-playground on GitHub">Star</a> <a class="github-button" href="https://github.com/morningspace/lab-k8s-playground/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork morningspace/lab-k8s-playground on GitHub">Fork</a>
 
-## API Connect
+## OpenShift
 
-![](/assets/images/lab/k8s/apic-logo.png)
+![](/assets/images/lab/k8s/openshift.png){: .align-center}
 
-[IBM API Connect(APIC)](https://developer.ibm.com/apiconnect)是IBM开发的一款API生命周期管理软件，它的核心部分是基于Node.js开源框架[LoopBack](https://loopback.io/)构建而成的。如果你对LoopBack感兴趣，欢迎访问我的[深入浅出LoopBack](https://morningspace.github.io/lab/#%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAloopback)系列教程。
+[OpenShift](https://www.openshift.com/)是Red Hat开发的构筑于Kubernetes之上的企业级容器应用平台，为企业应用与服务的开发，管理，以及部署提供了全面的支持，是当前炙手可热的一款Kubernetes发行版本。其社区版称为[OKD](https://www.okd.io/)（OpenShift Kubernetes Distribution的缩写，原名Origin）。
 
-标准的APIC安装，对于包括CPU，内存，存储在内的系统资源要求都比较高，通常需要多个虚拟机或物理机才能完成部署；其安装过程也比较复杂，通常需要几个小时甚至几天的时间才能完成安装，详情可见它的[安装文档](https://www.ibm.com/support/knowledgecenter/SSMNED_2018/mapfiles/getting_started.html)。
+本文将告诉你，利用[All-in-One Kubernetes Playground](https://github.com/morningspace/lab-k8s-playground/)，我们不仅可以在单机环境下部署多节点的标准Kubernetes集群，还可以部署一个支持OKD v3.11版本的单节点集群。不仅如此，像[Istio](https://istio.io)和[API Connect](https://developer.ibm.com/apiconnect)这些应用，也已经被成功迁移到了OpenShift集群上。只需要简单几条命令，就可以完成部署，整个过程是完全自动化进行的，并且可以无限次重复！
 
-本文将告诉你，利用[All-in-One Kubernetes Playground](https://github.com/morningspace/lab-k8s-playground/)，只要五个步骤，就可以在单机环境下，把APIC部署到一个由多节点构成的标准[Kubernetes](https://kubernetes.io/)集群里。整个过程是完全自动化进行的，并且可以无限次重复！
+## 准备环境
 
-## 动图演示
+在[All-in-One K8S Playground 中文使用指南](http://localhost:4000/tech/all-in-one-k8s-playground/)一文里，我们已经学会了如何在单机环境下快速自动部署起一个支持多节点的标准Kubernetes集群。如果要想让Playground支持OpenShift，我们只需要在此基础上，再指定一个额外的环境变量`K8S_PROVIDER`就可以了。目前，该环境变量支持的合法值包括：
+* `dind`，代表基于DIND技术（即Docker-in-Docker）实现的，可在单机环境里运行的，多节点标准Kubernetes集群；
+* `oc`，代表基于OpenShift的`oc cluster up`命令实现的，可在单机环境里运行的，单节点OpenShift集群；
 
-先上一段动图演示（点击图片可放大观看哦）：
-
-[![](https://morningspace.github.io/lab-k8s-playground/docs/demo-apic.gif)](https://morningspace.github.io/lab-k8s-playground/docs/demo-apic.gif)
-
-然后再来看一下具体的步骤。
-
-## 第一步：初始化环境
-
-首先，我们把All-in-One Kubernetes Playground的Git库克隆到本地，进入项目的根目录，执行`init`命令对Playground环境进行初始化：
+为了让环境变量的设置持久生效，我们可以编辑`~/.bashrc`文件：
 ```shell
-$ git clone https://github.com/morningspace/lab-k8s-playground.git
-$ cd lab-k8s-playground
-$ ./install/launch.sh init
-```
-
-然后，打开`~/.bashrc`文件，根据需要对某些环境变量进行调整，比如：指定本机的IP地址，Kubernetes的版本，集群的节点个数等：
-```shell
-# The IP of your host that runs APIC
+# The IP of your host, default is 127.0.0.1
 export HOST_IP=<your_host_ip>
+# The Kubernetes provider, default is dind
+export K8S_PROVIDER=oc
 # The Kubernetes version, default is v1.14
 export K8S_VERSION=
-# The number of worker nodes, must be 3
-export NUM_NODES=3
+# The number of worker nodes, default is 2
+export NUM_NODES=
 ```
+
+> 如果我们选择部署OpenShift，那么`K8S_VERSION`和`NUM_NODES`这两个环境变量会被忽略。
 
 为了在当前登录终端里让上面的改动生效，我们需要执行下面的命令重新加载`.bashrc`：
 ```shell
 $ . ~/.bashrc
 ```
 
-> 安装了APIC的Playground可以在包括Ubuntu，CentOS，RHEL在内的多个操作系统上运行。
-
-## 第二步：准备安装包
-
-下载APIC的安装包，并保存到`$LAB_HOME/install/.launch-cache/apic`目录下，包括安装APIC所需的全部Docker镜像，以及`apicup`可执行文件，例如：
+执行下面的命令，可以验证当前环境变量的设置是否正确：
 ```shell
-$ ls -1 $LAB_HOME/install/.launch-cache/apic/
-analytics-images-kubernetes_lts_v2018.4.1.4.tgz
-apicup-linux_lts_v2018.4.1.4
-idg_dk2018414.lts.nonprod.tar.gz
-management-images-kubernetes_lts_v2018.4.1.4.tgz
-portal-images-kubernetes_lts_v2018.4.1.4.tgz
+$ launch env
+Targets to be launched: [env]
+####################################
+# Launch target env...
+####################################
+LAB_HOME=/root/lab-playgrounds/lab-k8s-playground
+HOST_IP=192.168.0.10
+K8S_PROVIDER=oc
+K8S_VERSION=
+NUM_NODES=
+Total elapsed time: 0 seconds
 ```
 
-> 这里，`$LAB_HOME`代表Playground项目的根目录。
+## 启动OpenShift
 
-> APIC的安装包可以从IBM的官方下载站点获取到，具体方法此处略。
-
-## 第三步：修改部署配置
-
-我们可以根据需要，在下面的文件里，对APIC各个服务所使用的主机名，以及其他相关设置进行定制：
+启动OpenShift集群所使用的命令，和启动标准Kubernetes集群是一模一样的：
 ```shell
-$ vi $LAB_HOME/install/targets/apic/settings.sh
+$ launch kubernetes
 ```
 
-当在Playground里成功完成第一次APIC安装以后，我们可以把`settings.sh`里的`apic_skip_load_images`设置为`1`，这样可以跳过APIC的安装过程中“把Docker镜像加载到本地Private Registry”的步骤。因为，这一步骤在完成第一次APIC的安装以后就不需要再执行了，这可以为APIC的安装部署节省很多时间。
-
-如果你对如何自定义APIC的配置感兴趣，可参考[附录：自定义APIC配置](#附录自定义apic配置)
-
-## 第四步：启动APIC
-
-执行如下命令启动Kubernetes：
+等命令执行完毕以后，Playground会为我们在当前主机上启动起一个单节点的OpenShift集群。并且，只要机器性能足够好，我们甚至可以在一台机器上同时跑两个集群，分别代表标准的Kubernetes集群和OpenShift集群：
 ```shell
-$ launch default
+$ K8S_PROVIDER=dind launch kubernetes
+$ K8S_PROVIDER=oc launch kubernetes
 ```
 
-> 等Kubernetes启动完以后，我们可以执行`kubectl version`来验证启动是否成功。
+执行如下命令，我们可以同时看到跑在标准Kubernetes集群上的Dashboard和跑在OpenShift集群上的Web Console的访问地址：
+```shell
+$ launch endpoints
+Targets to be launched: [endpoints]
+####################################
+# Launch target endpoints...
+####################################
+» common endpoints...
+✔      Web Terminal: https://192.168.0.10:4200 
+✔         Dashboard: http://192.168.0.10:32774/api/v1/namespaces/kube-system/services/http:kubernetes-dashboard:/proxy 
+✔ OpenShift Console: https://192.168.0.10:8443/console 
+Total elapsed time: 0 seconds
+```
 
-> 如果你是中国地区的用户，请在执行`launch`之前设置环境变量`export IS_IN_CHINA=1`，这样可以解决Kubernetes启动过程中无法从Google网站下载Docker镜像的问题。
+### 动图演示
 
-然后，启动APIC：
+下面这个动图所演示的，就是如何在一台8核32G内存的机器上，先启动一个多节点的标准Kubernetes集群，然后再启动一个单节点的OpenShift集群。利用[kubectx](https://github.com/ahmetb/kubectx)，我们可以实现在这两个集群上下文之间的自如切换（点击图片可放大观看哦）：
+
+[![](https://morningspace.github.io/lab-k8s-playground/docs/demo-oc.gif)](https://morningspace.github.io/lab-k8s-playground/docs/demo-oc.gif)
+
+## 使用OpenShift
+
+根据`launch endpoints`返回的结果，我们可以登录到OpenShift所提供的Web Console里，对应用和集群进行管理。
+
+> 默认的管理员账户/密码为：admin/admin；开发人员账户/密码为：developer/developer。
+
+如果希望通过命令行来管理应用和集群，则可以利用OpenShift提供的`oc`命令进行登录。以管理员身份登录：
+```shell
+$ oc login -u system:admin
+```
+
+或者以开发人员身份登录：
+```shell
+$ oc login -u developer
+```
+
+## 在OpenShift上运行Istio和APIC
+
+在All-in-One K8S Playground里基于OpenShift运行Istio或APIC只需要一条命令就能实现。而且，这条命令和基于标准Kubernetes集群运行Istio或APIC是一模一样的！关于如何在标准Kubernetes集群里运行Istio，请参见[All-in-One K8S Playground 中文使用指南](http://localhost:4000/tech/all-in-one-k8s-playground/)一文；API Connect，则参见[把API Connect关进All-in-One K8S Playground里](http://localhost:4000/tech/all-in-one-apic-playground/)一文。
+
+等Kubernetes集群启动起来以后，执行如下命令启动Istio：
+```shell
+$ launch istio istio-bookinfo
+```
+
+执行如下命令启动APIC：
 ```shell
 $ launch apic
 ```
 
-完成启动过程需要花费一定的时间，具体取决于你的系统配置。以我的虚机为例，在`apic_skip_load_images`设置为1的情况下，大概不到15分钟就完成了。
+在标准的Kubernetes集群里部署Istio和API Connect时，最后需要通过端口转发（port forwarding）把应用的访问地址暴露出来，从而可以在集群外面对应用进行访问。对于OpenShift而言，因为是直接在宿主机上部署的集群和应用，所以就不需要这一个步骤了。
 
-> 等APIC启动起来以后，可以执行`kubectl get pods -n apiconnect`，检查APIC的所有pod是否都已经成功的启动起来了。
+另外，对于应用的访问地址，由于使用了[`nip.io`](https://nip.io/)提供的DNS服务，所以也不需要把主机IP和主机名的映射定义添加到本地的`/etc/hosts`文件里。
 
-如果我们想销毁当前的APIC环境，再重新启动一个新的集群，只需要执行下面这一行命令就可以了：
+总之一句话，等集群启动起来以后，无需额外的步骤，我们就可以直接访问集群中的应用了。至于这些应用的访问地址具体长啥样，可以通过运行`launch endpoints`命令查看到。
 ```shell
-$ launch apic::clean kubernetes::clean registry::up kubernetes apic
+$ launch endpoints
+Targets to be launched: [endpoints]
+####################################
+# Launch target endpoints...
+####################################
+» apic endpoints...
+✔   Gateway Management Endpoint: https://gwd.192.168.0.10.nip.io 
+?     Gateway API Endpoint Base: https://gw.192.168.0.10.nip.io 
+✔    Portal Management Endpoint: https://padmin.192.168.0.10.nip.io 
+✔            Portal Website URL: https://portal.192.168.0.10.nip.io 
+✔ Analytics Management Endpoint: https://ac.192.168.0.10.nip.io 
+✔              Cloud Manager UI: https://cm.192.168.0.10.nip.io/admin (default usr/pwd: admin/7iron-hide)
+» common endpoints...
+✔      Web Terminal: https://192.168.0.10:4200 
+✔         Dashboard: http://192.168.0.10:32774/api/v1/namespaces/kube-system/services/http:kubernetes-dashboard:/proxy 
+✔ OpenShift Console: https://192.168.0.10:8443/console 
+» istio endpoints...
+✔        Grafana: http://192.168.0.10:3000 
+✔          Kiali: http://192.168.0.10:20001 
+✔         Jaeger: http://192.168.0.10:15032 
+✔     Prometheus: http://192.168.0.10:9090 
+✔ Istio Bookinfo: http://192.168.0.10:31380/productpage 
+Total elapsed time: 7 seconds
 ```
-
-## 第五步：暴露APIC端口
-
-可以利用下面的命令把APIC的服务端口暴露到集群外：
-```shell
-$ launch apic::portforward
-```
-
-然后，我们再把主机IP和主机名的映射定义添加到本地的`/etc/hosts`文件里，这样就可以在本地的浏览器里访问APIC的UI了：
-```shell
-$ cat /etc/hosts
-...
-<your_host_ip>   cm.morningspace.com gwd.morningspace.com gw.morningspace.com padmin.morningspace.com portal.morningspace.com ac.morningspace.com apim.morningspace.com api.morningspace.com
-```
-
-## 附录：自定义APIC配置
-
-所有APIC的配置文件都保存在`$LAB_HOME/install/targets/apic`目录下。其中，`settings.sh`文件用于配置APIC各个服务所用的主机名，以及所需内存和存储的大小。
-
-当完成自定义以后，我们可以执行下面的命令，让APIC对我们所做的修改进行验证：
-```shell
-$ launch apic::validate
-```
-
-在输出结果里，大家可能会注意到，有些地方会有验证错误，比如：
-```shell
-data-storage-size-gb  10    ✘  data-storage-size-gb must be 200 or greater 
-```
-
-这表示，APIC的`analytics`子系统所使用的`data-storage-size-gb`必须要大于等于200GB。如果你觉得自己所指定的值，在当前环境下足以运行APIC的话，那就可以忽略这些错误。
 
 ## 更多参考资料
 
@@ -155,7 +171,7 @@ data-storage-size-gb  10    ✘  data-storage-size-gb must be 200 or greater
 &nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">;;</span><br style="outline: none;">
 &nbsp;&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(0, 201, 24);">"to get started quickly"</span><span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">)</span><br style="outline: none;">
 &nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">cat</span>&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(55, 119, 230);">"<a href="https://morningspace.github.io/lab-k8s-playground/docs/All-in-One-Playground-Usage-Guide.html" rel="noopener" target="_blank">All-in-One&nbsp;K8S&nbsp;Playground&nbsp;Usage&nbsp;Guide</a>"</span><br style="outline: none;">
-&nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">cat</span>&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(55, 119, 230);">"<a href="https://morningspace.github.io/tech/all-in-one-k8s-playground" rel="noopener" target="_blank">All-in-One&nbsp;K8S&nbsp;Playground 中文使用指南</a>"</span><br style="outline: none;">
+&nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">cat</span>&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(55, 119, 230);">"<a href="http://localhost:4000/tech/all-in-one-k8s-playground" rel="noopener" target="_blank">All-in-One&nbsp;K8S&nbsp;Playground 中文使用指南</a>"</span><br style="outline: none;">
 &nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">;;</span><br style="outline: none;">
 &nbsp;&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(0, 201, 24);">"to understand what's behind"</span><span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">)</span><br style="outline: none;">
 &nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">cat</span>&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(55, 119, 230);">"<a href="https://morningspace.github.io/tech/k8s-run" rel="noopener" target="_blank">Launch&nbsp;multi-node&nbsp;k8s&nbsp;cluster&nbsp;locally&nbsp;in&nbsp;one&nbsp;minute...</a>"</span><br style="outline: none;">
@@ -167,7 +183,7 @@ data-storage-size-gb  10    ✘  data-storage-size-gb must be 200 or greater
 &nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">;;</span><br style="outline: none;">
 &nbsp;&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(0, 201, 24);">"to learn more cool features"</span><span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">)</span><br style="outline: none;">
 &nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">cat</span>&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(55, 119, 230);">"<a href="https://morningspace.github.io/lab-k8s-playground/docs/APIC-Quick-Guide.html" rel="noopener" target="_blank">Quick&nbsp;Guide&nbsp;to&nbsp;Launch&nbsp;APIC&nbsp;Playground</a>"</span><br style="outline: none;">
-&nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">cat</span>&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(55, 119, 230);">"<a href="https://morningspace.github.io/tech/all-in-one-apic-playground" rel="noopener" target="_blank">把API Connect关进All-in-One K8S Playground里</a>"</span><br style="outline: none;">
+&nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">cat</span>&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(55, 119, 230);">"<a href="https://morningspace.github.io/tech/all-in-one-apic-playground/" rel="noopener" target="_blank">把API Connect关进All-in-One K8S Playground里</a>"</span><br style="outline: none;">
 &nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">cat</span>&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(55, 119, 230);">"<a href="https://morningspace.github.io/tech/all-in-one-openshift-playground/" rel="noopener" target="_blank">喜迎OpenShift入驻All-in-One K8S Playground</a>"</span><br style="outline: none;">
 &nbsp;&nbsp; &nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">;;</span><br style="outline: none;">
 &nbsp;&nbsp;<span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s; color: rgb(0, 201, 24);">"to contribute back"</span><span style="outline: none; box-sizing: border-box; transition: all 0.2s ease-in-out 0s;">)</span><br style="outline: none;">
