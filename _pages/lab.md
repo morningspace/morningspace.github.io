@@ -20,7 +20,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 | [Launch multi-node k8s cluster locally in 1min](/tech/k8s-run), [优酷视频](https://v.youku.com/v_show/id_XNDI2Mzk1NDcyMA==.html?f=52221532 "优酷"), [YouTube视频](https://www.youtube.com/watch?v=0uVdF3Inv48&list=PLVQM6jLkNkfqHgd0aX7TnjioOiQrqsXIa "YouTube")	| 本地快速搭建指定版本的多节点k8s集群
 | [All-in-One K8S Playground中文使用指南](/tech/all-in-one-k8s-playground)	| 利用[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)一键搞定k8s部署
 | [把API Connect关进All-in-One K8S Playground](/tech/all-in-one-apic-playground)	| [lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)的高级应用案例
-| [喜迎OpenShift入驻All-in-One K8S Playground](/tech/all-in-one-openshift-playground) | [lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)支持部署OpenShift
+| [All-in-One K8S Playground新增OpenShift支持](/tech/all-in-one-openshift-playground) | 喜迎OpenShift入驻[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)
 
 ### [Git系列](/lab/#Git系列)
 
