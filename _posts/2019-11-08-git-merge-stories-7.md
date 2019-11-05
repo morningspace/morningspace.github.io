@@ -7,10 +7,14 @@ toc: true
 toc_sticky: true
 ---
 
+> 多人开发中的合并冲突是我们使用Git时常常会遇到的情况，小小合并门道大，讲述合并的那些事儿，晴耕 · 白话之“Git合并那些事”系列​持续连载中……
+
 注：
 本文采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 
-本文的主要目的是搜集和介绍更多有关Rebase的有趣用法。关于Rebase的基本使用，同学们可以在[“Git合并的那些事儿——神奇的Rebase”](/tech/git-merge-stories-6)一文里找到。
+![](/assets/images/lab/git/rebase-2.png){: .align-center}
+
+本文的主要目的是搜集和介绍更多有关Rebase的有趣用法。关于Rebase的基本使用，同学们可以在[“Git合并那些事儿——神奇的Rebase”](/tech/git-merge-stories-6)一文里找到。
 
 ## 问题由来
 
@@ -22,7 +26,7 @@ toc_sticky: true
 
 通常我们执行`git rebase`命令时，整个Rebase的过程都是自动进行的。但是，当我们指定了`-i`参数以后，Rebase就进入了交互模式。于是，我们就可以“为所欲为”了;-) 
 
-在[“Git合并的那些事儿——神奇的Rebase”](/tech/git-merge-stories-6)一文里，我们已经知道Rebase可以影响提交历史。实际上，我们在交互模式下可以做更多事情。纯手工，想怎么玩儿都行！比如：合并多个提交记录，丢弃某些提交记录，修改提交记录的信息等。
+在[“Git合并那些事儿——神奇的Rebase”](/tech/git-merge-stories-6)一文里，我们已经知道Rebase可以影响提交历史。实际上，我们在交互模式下可以做更多事情。纯手工，想怎么玩儿都行！比如：合并多个提交记录，丢弃某些提交记录，修改提交记录的信息等。
 
 ## 一个例子
 
