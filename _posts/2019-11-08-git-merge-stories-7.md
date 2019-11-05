@@ -1,5 +1,5 @@
 ---
-title: Git合并的那些事儿——交互式Rebase
+title: Git合并那些事——交互式Rebase
 excerpt: 介绍更多关于Rebase的玩法
 categories: [tech]
 tags: [lab, dummies, dummies_git, git]

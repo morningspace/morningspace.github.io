@@ -1,5 +1,5 @@
 ---
-title: Git合并的那些事儿——神奇的Rebase
+title: Git合并那些事——神奇的Rebase
 excerpt: 介绍Rebase的基本概念，各种玩法，以及什么时候用到它
 categories: [tech]
 tags: [lab, dummies, dummies_git, git]
