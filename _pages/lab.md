@@ -40,7 +40,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 | [撤销合并](/tech/git-merge-stories-5)					| 讲述冲各种撤销合并的方法
 | [神奇的Rebase](/tech/git-merge-stories-6)			| 认识Rebase及其用法，以及什么时候用到它
 | [交互式Rebase](/tech/git-merge-stories-7)			| 介绍更多有关Rebase的玩法
-| Rebase的烦恼		| 通过一个例子来演示Rebase使用不当带来的麻烦
+| [Rebase的烦恼](/tech/git-merge-stories-8)			| 通过一个例子来演示Rebase使用不当带来的麻烦
 
 ## [Hello Git](https://github.com/morningspace/lab-hello-git)
 
