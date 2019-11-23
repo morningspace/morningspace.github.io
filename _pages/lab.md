@@ -23,6 +23,10 @@ excerpt: "收录公开的教程，培训，及演讲"
 | [All-in-One K8S Playground新增OpenShift支持](/tech/all-in-one-openshift-playground) | 喜迎OpenShift入驻[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)
 | [OpenShift v3的填坑之旅](/tech/openshift-v3-trap-and-pitfalls) | 记录[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)支持OpenShift沿途踩过的坑
 
+☁ 网络篇：
+
+| [从docker0开始](/tech/k8s-net-docker0)												| 讨论network bridge的工作原理
+
 ### [Git系列](/lab/#Git系列)
 
 ![](/assets/images/lab/git/inspection-sm@2x.png) Git解密：探索Git背后的秘密	
