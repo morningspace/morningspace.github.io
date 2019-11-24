@@ -27,14 +27,14 @@ toc_sticky: true
 $ apk add iproute2 bridge-utils iptables
 ```
 
-或者，也可以使用[lab-kubernetes](https://github.com/morningspace/lab-kubernetes)为我们提供的名为morningspace/lab-dind的Docker镜像，里面预装了所有的依赖。在撰写这一系列文章的时候，笔者就是利用该镜像在一台Mac笔记本上完成的所有实验。
+或者，也可以使用[lab-k8s](https://github.com/morningspace/lab-k8s)为我们提供的名为morningspace/lab-dind的Docker镜像，里面预装了所有的依赖。在撰写这一系列文章的时候，笔者就是利用该镜像在一台Mac笔记本上完成的所有实验。
 
 由于目前Mac上运行的Docker Desktop依然是把Docker放在一个虚拟机上跑的，而这个虚拟机通常情况下又不太容易直接访问到，所以如果我们想查看虚拟机上的网络设置会比较困难。这就是为什么笔者建议我们在做实验的时候使用lab-dind镜像的原因。该镜像是一个标准的Alpine Linux，进入容器以后，还可以执行各种docker命令，进行我们的实验。比如在容器内部启动另一个容器，这和在物理机上的操作体验是完全一样的。这就是所谓的dind(Docker-in-Docker)技术。虽然严格地说，这种操作方式和跑在物理机上的Linux，以及相应的Docker环境还是有一定的差异的，但这并不妨碍我们做实验。
 
-如果我们已经把[lab-kubernetes](https://github.com/morningspace/lab-kubernetes)项目客隆到了本地，那么就可以直接在项目的根目录下运行`docker-compose`命令来启动lab-dind容器：
+如果我们已经把[lab-k8s](https://github.com/morningspace/lab-k8s)项目客隆到了本地，那么就可以直接在项目的根目录下运行`docker-compose`命令来启动lab-dind容器：
 ```shell
 $ docker-compose up -d dind
-Creating lab-kubernetes_dind_1_9791018c4641 ... done
+Creating lab-k8s_dind_1_9791018c4641 ... done
 ```
 
 等容器成功启动起来以后，我们再通过如下命令进入到容器内部：
