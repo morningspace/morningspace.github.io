@@ -10,5 +10,5 @@ main:
     url: "/books/"
   - title: "影廊"
     url: "/gallery/"
-  - title: "资助"
-    url: "/donate/"
+#  - title: "资助"
+#    url: "/donate/"
