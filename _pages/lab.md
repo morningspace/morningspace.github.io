@@ -21,8 +21,9 @@ excerpt: "收录公开的教程，培训，及演讲"
 | [All-in-One K8S Playground中文使用指南](/tech/all-in-one-k8s-playground)	| 利用[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)一键搞定k8s部署
 | [把API Connect关进All-in-One K8S Playground](/tech/all-in-one-apic-playground)	| [lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)的高级应用案例
 | [All-in-One K8S Playground新增OpenShift支持](/tech/all-in-one-openshift-playground) | 喜迎OpenShift入驻[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)
-| [OpenShift v3的填坑之旅](/tech/openshift-v3-trap-and-pitfalls) | 记录[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)支持OpenShift沿途踩过的坑
+| [OpenShift v3的填坑之旅](/tech/openshift-v3-trap-and-pitfalls) | 记录[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)支持OpenShift v3沿途踩过的坑
 | [All-in-One K8S Playground支持OpenShift v4](/tech/all-in-one-openshift-v4-playground) | [lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)实现OpenShift 3、4一勺烩
+| [OpenShift v4的填坑之旅](/tech/openshift-v4-trap-and-pitfalls) | 记录[lab-k8s-playground](https://github.com/morningspace/lab-k8s-playground)支持OpenShift v4沿途踩过的坑
 
 ☁ 网络篇：
 
