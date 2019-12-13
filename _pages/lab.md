@@ -28,6 +28,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 ☁ 网络篇：
 
 | [从docker0开始](/tech/k8s-net-docker0)												| 讨论network bridge的工作原理
+| [模拟Docker网络](/tech/k8s-net-mimic-docker)									| 理解network namespace和veth工作原理
 
 ### [Git系列](/lab/#Git系列)
 
