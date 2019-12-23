@@ -49,6 +49,14 @@ excerpt: "收录公开的教程，培训，及演讲"
 | [交互式Rebase](/tech/git-merge-stories-7)			| 介绍更多有关Rebase的玩法
 | [Rebase的烦恼](/tech/git-merge-stories-8)			| 通过一个例子来演示Rebase使用不当带来的麻烦
 
+![](/assets/images/lab/git/branch-sm@2x.png) Git工作流面面观
+
+| [分支模型](/tech/git-workflow-1)				| Git强大的分支模型，所有Git工作流的基础
+| 集中式工作流		| 最为基本的一种Git工作流，适合习惯传统版本控制方式的团队
+| 特性分支工作流	| 非常重要的一种Git工作流，充分发挥分支模型的优势
+| Gitflow工作流	| 广泛应用的一种Git工作流，适合管理有固定发布周期的大项目
+| Forking工作流	| 开源项目的标准Git工作流，灵活与约束并存的分布式工作流
+
 ## [Hello Git](https://github.com/morningspace/lab-hello-git)
 
 短视频 + Docker镜像 + 小抄 + GitHub项目，全方位教你如何用好Git！
