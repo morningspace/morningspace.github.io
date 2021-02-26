@@ -6,6 +6,19 @@ toc_sticky: true
 excerpt: "收录公开的源码小品"
 ---
 
+## [Git Assist](https://github.com/morningspace/git-assist)
+
+提供了一组命令行工具，在你日常使用Git和GitHub的过程中，当遇到一些复杂应用场景，无法简单的通过使用Git图形化工具，或一两条git命令来解决的时候，Git Assist可以帮助你处理这些情况。比如：
+* 把一组文件或文件夹连同其提交历史从一个Git库复制到另一个Git库；
+* 把一组文件连同其提交历史彻底从当前Git库里清除掉；
+* 把Git库里所有之前用某个账号提交的历史记录批量替换成另一个账号；
+* 在把Git库里的提交记录推送到远程库时，指定只推送一部分提交记录；
+
+| 资源 	| 链接
+| ---- 	|:----
+| 源码			| [GitHub项目](https://github.com/morningspace/git-assist)
+| 在线文档	| [Git Assist Online Documentation](https://morningspace.github.io/git-assist/docs)
+
 ## [Docker Registry CLI](https://github.com/morningspace/docker-registry-cli)
 
 一款用Bash Shell编写的命令行工具，可以方便而灵活的对支持[HTTP API V2](https://docs.docker.com/registry/spec/api/)版本的[Docker Registry](https://docs.docker.com/registry/)进行管理，同时支持私有Docker Registry和各种公有的Docker Registry，如大家所熟知的[Docker Hub](https://hub.docker.com/)，[Quay](https://quay.io/)，[Google Container Registry](https://cloud.google.com/container-registry/)，[AWS Container Registry](https://aws.amazon.com/ecr/)等。该工具具备了以下几个特色：
