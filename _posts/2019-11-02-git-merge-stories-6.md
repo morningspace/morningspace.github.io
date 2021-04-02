@@ -220,7 +220,7 @@ First, rewinding head to replay your work on top of it...
 Applying: c4
 ```
 
-这行命令的意思是，告诉Git：找到bug-fix分支和dev分支的共同祖先c2；在dev分支上找到从c2开始往后的所有提交记录，即：c4；然后在bug-fix分支上重新“回放”这些提交记录，就好像是直接在master分支上工作的那样。相当于把c4的“起点”从原来的c2重新设置成了c1。
+这行命令的意思是，告诉Git：找到bug-fix分支和dev分支的共同祖先c2；在bug-fix分支上找到从c2开始往后的所有提交记录，即：c4；然后在master分支上重新“回放”这些提交记录，就好像是直接在master分支上工作的那样。相当于把c4的“起点”从原来的c2重新设置成了c1。
 
 然后，我们再切换回master分支，执行一次Fast-Forward Merge，就可以把bug-fix分支上的变更合并到master上了。
 ```shell
