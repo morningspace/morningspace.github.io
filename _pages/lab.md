@@ -32,6 +32,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 | [认识CNI](/tech/k8s-net-cni)																	| Kubernetes的网络基础
 | [将CNI用于容器](/tech/k8s-net-cni-docker-rkt)									| 演示如何将CNI用于Docker和rkt
 | [自己动手写CNI插件(上)](/tech/k8s-net-cni-coding-shell)				| 用shell写一个简单的CNI插件
+| [自己动手写CNI插件(下)](/tech/k8s-net-cni-coding-go)						| 用go写一个更真实更复杂的CNI插件
 
 ### [Git系列](/lab/#Git系列)
 
