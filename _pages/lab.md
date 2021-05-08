@@ -37,6 +37,7 @@ excerpt: "收录公开的教程，培训，及演讲"
 | [Pod网络(下)](/tech/k8s-net-pod-2/)													| 通过Pod的部署实验，进一步认识Pod网络
 | [Service网络(上)](/tech/k8s-net-service-1/)									| 学习Service的定义，部署和访问，认识kube-dns
 | [Service网络(下)](/tech/k8s-net-service-2/)									| 通过tcpdump和iptables，进一步认识Service网络
+| [ExternalIP和NodePort](/tech/k8s-net-externalip-nodeport/)	| 利用ExternalIP和NodePort，从集群外部访问Service
 
 ### [Git系列](/lab/#Git系列)
 
