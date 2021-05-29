@@ -6,6 +6,16 @@ toc_sticky: true
 excerpt: "收录公开的源码小品"
 ---
 
+## [KubeMacro](https://github.com/morningspace/kubemacro)
+
+KubeMacro是一个kubectl插件，它用于把一组针对于kubectl命令或Kubernetes API的调用封装成一个命令，以便于在命令行多次执行。
+
+| 资源 	| 链接
+| ---- 	|:----
+| 源码			| [GitHub项目](https://github.com/morningspace/kubemacro)
+| 在线文档	| [KubeMacro Online Documentation](https://morningspace.github.io/kubemacro/docs)
+| KubeMacro快速入门	| [文章](/tech/kubemacro-1/)
+
 ## [Git Assist](https://github.com/morningspace/git-assist)
 
 提供了一组命令行工具，在你日常使用Git和GitHub的过程中，当遇到一些复杂应用场景，无法简单的通过使用Git图形化工具，或一两条git命令来解决的时候，Git Assist可以帮助你处理这些情况。比如：
