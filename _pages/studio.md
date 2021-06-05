@@ -15,6 +15,7 @@ KubeMacro是一个kubectl插件，它用于把一组针对于kubectl命令或Kub
 | 源码			| [GitHub项目](https://github.com/morningspace/kubemacro)
 | 在线文档	| [KubeMacro Online Documentation](https://morningspace.github.io/kubemacro/docs)
 | KubeMacro快速入门	| [文章](/tech/kubemacro-1/)
+| KubeMacro Hub：寻找你的Kube Macro	| [文章](/tech/kubemacro-2/)
 
 ## [Git Assist](https://github.com/morningspace/git-assist)
 
