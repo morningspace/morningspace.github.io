@@ -6,12 +6,22 @@ toc_sticky: true
 excerpt: "收录公开的源码小品"
 ---
 
+## [KubeAssert](https://github.com/morningspace/kubeassert)
+
+KubeAssert是一个kubectl插件，它用于在命令行声明针对Kubernetes资源的断言（assertion）。
+
+| 资源 		| 链接
+| ---- 		|:----
+| 源码			| [GitHub项目](https://github.com/morningspace/kubeassert)
+| 在线文档	| [kubeAssert Online Documentation](https://morningspace.github.io/kubeassert/docs)
+| kubeAssert快速入门								| [文章](/tech/kubeassert-1/)
+
 ## [KubeMacro](https://github.com/morningspace/kubemacro)
 
 KubeMacro是一个kubectl插件，它用于把一组针对于kubectl命令或Kubernetes API的调用封装成一个命令，以便于在命令行多次执行。
 
-| 资源 	| 链接
-| ---- 	|:----
+| 资源 		| 链接
+| ---- 		|:----
 | 源码			| [GitHub项目](https://github.com/morningspace/kubemacro)
 | 在线文档	| [KubeMacro Online Documentation](https://morningspace.github.io/kubemacro/docs)
 | KubeMacro快速入门								| [文章](/tech/kubemacro-1/)
@@ -26,8 +36,8 @@ KubeMacro是一个kubectl插件，它用于把一组针对于kubectl命令或Kub
 * 把Git库里所有之前用某个账号提交的历史记录批量替换成另一个账号；
 * 在把Git库里的提交记录推送到远程库时，指定只推送一部分提交记录；
 
-| 资源 	| 链接
-| ---- 	|:----
+| 资源 		| 链接
+| ---- 		|:----
 | 源码			| [GitHub项目](https://github.com/morningspace/git-assist)
 | 在线文档	| [Git Assist Online Documentation](https://morningspace.github.io/git-assist/docs)
 
@@ -41,7 +51,7 @@ KubeMacro是一个kubectl插件，它用于把一组针对于kubectl命令或Kub
 
 | 资源 	| 链接
 | ---- 	|:----
-| 源码 | [GitHub项目](https://github.com/morningspace/docker-registry-cli)
+| 源码 	| [GitHub项目](https://github.com/morningspace/docker-registry-cli)
 | Docker Registry CLI轻松管理Docker注册表(上) | [文章](/tech/use-docker-reg-cli-1/)
 | Docker Registry CLI轻松管理Docker注册表(下) | [文章](/tech/use-docker-reg-cli-2/)
 | Docker Registry CLI Tutorial - Basic Use | [文章](/tech/reg-cli-tutorial-1/) [视频1](https://v.youku.com/v_show/id_XNDE3ODk0NTk4MA==.html?f=52175776 "优酷自频道") [视频2](https://youtu.be/j_Bd4G5aGXA "YouTube Channel")
@@ -59,7 +69,7 @@ KubeMacro是一个kubectl插件，它用于把一组针对于kubectl命令或Kub
 
 | 资源 	| 链接
 | ---- 	|:----
-| 源码 | [GitHub项目](https://github.com/morningspace/elastic-shell)
+| 源码 	| [GitHub项目](https://github.com/morningspace/elastic-shell)
 | 开源项目Elastic Shell发布暨晴耕工坊栏目上线 | [文章](/tech/elash-and-studio/)
 | Elastic Shell 101: Getting Started | [文章](/tech/elash101-1/) [视频1](https://v.youku.com/v_show/id_XNDEwNjI0OTk2OA==.html?f=52133377 "优酷") [视频2](https://youtu.be/9r_RNz89SVw "YouTube")
 | Elastic Shell 101: Working with Index | [文章](/tech/elash101-2/) [视频1](https://v.youku.com/v_show/id_XNDExNjc0OTU4NA==.html?f=52133377 "优酷") [视频2](https://youtu.be/nWX8miFbRPQ "YouTube")
