@@ -17,6 +17,7 @@ KubeAssert是一个kubectl插件，它用于在命令行声明针对Kubernetes�
 | KubeAssert快速入门								| [文章](/tech/kubeassert-1/)
 | 高效使用KubeAssert								| [文章](/tech/kubeassert-2/)
 | 为KubeAssert定制断言							| [文章](/tech/kubeassert-3/)
+| 集成KubeAssert与KUTTL						| [文章](/tech/kubeassert-4/)
 
 ## [KubeMacro](https://github.com/morningspace/kubemacro)
 
