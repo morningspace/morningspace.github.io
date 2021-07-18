@@ -6,6 +6,16 @@ toc_sticky: true
 excerpt: "收录公开的源码小品"
 ---
 
+## [Enhanced OpenShift CLI](https://github.com/morningspace/oc)
+
+增强版OpenShift CLI可以帮助我们高效而安全的管理大量的OpenShift集群。
+
+| 资源 		| 链接
+| ---- 		|:----
+| 源码			| [GitHub项目](https://github.com/morningspace/oc)
+| 在线文档	| [Online Documentation](https://morningspace.github.io/oc/docs)
+| 如何高效安全的管理OpenShift集群			| [文章](/tech/enhanced-oc-1/)
+
 ## [KubeAssert](https://github.com/morningspace/kubeassert)
 
 KubeAssert是一个kubectl插件，它用于在命令行声明针对Kubernetes资源的断言（assertion）。
@@ -13,7 +23,7 @@ KubeAssert是一个kubectl插件，它用于在命令行声明针对Kubernetes�
 | 资源 		| 链接
 | ---- 		|:----
 | 源码			| [GitHub项目](https://github.com/morningspace/kubeassert)
-| 在线文档	| [KubeAssert Online Documentation](https://morningspace.github.io/kubeassert/docs)
+| 在线文档	| [Online Documentation](https://morningspace.github.io/kubeassert/docs)
 | KubeAssert快速入门								| [文章](/tech/kubeassert-1/)
 | 高效使用KubeAssert								| [文章](/tech/kubeassert-2/)
 | 为KubeAssert定制断言							| [文章](/tech/kubeassert-3/)
