@@ -84,7 +84,7 @@ $ gopass --yes setup --remote git@github.example.com:william/team-clusters.git -
 
 下图演示了整个准备工作的端到端流程：
 
-![](/assets/images/studio/enhanced-oc/enhanced-oc-4.png)
+![](/assets/images/studio/enhanced-oc/enhanced-oc-4.jpg)
 
 ## 小结
 
