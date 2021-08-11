@@ -17,6 +17,7 @@ excerpt: "收录公开的源码小品"
 | 如何高效安全的管理OpenShift集群			| [文章](/tech/enhanced-oc-1/)
 | 增强版OpenShift CLI快速入门				| [文章](/tech/enhanced-oc-2/)
 | 增强版OpenShift CLI的更多功能			| [文章](/tech/enhanced-oc-3/)
+| 在团队中使用增强版OpenShift CLI		| [文章](/tech/enhanced-oc-4/)
 
 ## [KubeAssert](https://github.com/morningspace/kubeassert)
 
